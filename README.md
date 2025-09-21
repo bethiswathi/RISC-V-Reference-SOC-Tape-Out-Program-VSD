@@ -29,15 +29,18 @@ $ git submodule update --init --recursive
 $ make
 $ sudo make install
 ```
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/d471ae7a-2fab-47b1-9ccb-a5ac5bff32be" />
 
 #### <ins>**Iverilog**</ins>
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
+<img width="500" height="507" alt="image" src="https://github.com/user-attachments/assets/f168cc2f-e880-4a99-8838-d3a68cd9760a" />
 
 #### <ins>**gtkwave**</ins>
 ```bash
 $ sudo apt-get update
 $ sudo apt install gtkwave
 ```
+<img width="500" height="120" alt="image" src="https://github.com/user-attachments/assets/6b95cca0-fdb1-4407-b8f6-1b6ad72bb8ce" />
