@@ -6,12 +6,12 @@
 https://www.virtualbox.org/wiki/Downloads
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7bd19570-d25a-4dfb-92fc-91abad89e48b" />
 
-### **System Requirements**
-  - 6GB RAM
-  - 50 GB HDD
-  - Ubuntu 20.04+
-  - 4vCPU
-
+### **Table of Contents**
+  1. 
+  2. 50 GB HDD
+  3. Ubuntu 20.04+
+  4. 4vCPU
+  5. 
 ### **Tool Check**
 
 ### <ins>**Yosys**</ins>
