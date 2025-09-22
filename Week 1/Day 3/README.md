@@ -1,7 +1,13 @@
 
-# Introduction to Verilog RTL design and Synthesis
+# Combinational and Sequential Optimizations
 
-## Introduction to open-source simulator iverilog
+## Introduction to Optimizations
+## Combinational Optimizations
+## Sequential Optimizations
+
+
+## Sequential Optimizations for Unused Outputs
+
 
 ### <ins>**Simulator**</ins>
 Simulator is a software tool used for simulating the design to verify the correctness.
