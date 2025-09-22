@@ -4,7 +4,8 @@
 
 ### <ins>**Simulator**</ins>
 Simulator is a software tool used for simulating the design to verify the correctness.
-iverilog is the tool used here.
+iverilog is the tool used here. Simulator looks for the changes in the values of the input.
+The output of the simulator remains same if there is no change in the input values.
 
 ### <ins>**Design**</ins>
 Design is the actual verilog code that you want to implement in hardware.
@@ -18,6 +19,11 @@ Testbench is like a environment or setup that applies test vectors to the design
 
 ### <ins>**How Simulator works**</ins>
 ### 
+
+<div align="center">
+  <img width="824" height="329" alt="image" src="https://github.com/user-attachments/assets/5ab70a47-df6b-448d-a163-16297bc3e9ae" />
+</div>
+
 ### **Table of Contents**
   1. 
   2. 50 GB HDD
