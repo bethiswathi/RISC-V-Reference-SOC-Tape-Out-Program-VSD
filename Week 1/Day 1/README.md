@@ -13,7 +13,26 @@ https://www.virtualbox.org/wiki/Downloads
   4. 4vCPU
   5. 
 ### **Tool Check**
+# RTL design and Synthesis Using Sky130
 
+This week is focussed on verilog RTL design, simulation, synthesis and optimization.
+
+### **Table of Contents**
+<details>
+  <summary> Day 1- Introduction to verilog RTL design and Synthesis<a href="Day 1/README.md"> Day 1/README.md</a></summary>
+
+  - Introduction to open-source simulator iverilog
+  - Labs using iverilog and gtkwave
+  - Introduction to Yosys and Logic synthesis
+  - Labs using Yosys and Sky 130 PDKs
+
+</details>
+<details>
+  <summary> Day 2- Timing libs, hierachical vs flat synthesis and efficient flop coding styles</summary>
+
+  - Introduction to timing .libs
+  - Hierachical vs Flat synthesis
+  - Various Flop coding styles and optimization
 ### <ins>**Yosys**</ins>
 ```bash
 $ sudo apt-get update
