@@ -46,7 +46,7 @@ endmodule
 </div>
 Yosys is a powerful open-source logic synthesis tool used in digital VLSI design. The design is given to yosys tool using read_verilog and the library files using read_liberty. Yosys tool synthesizes the design using the library cells and the output is a netlist file (gate-level representation of the design). Netlist should be same as the design but represented in the form of standard cells.
 
-## Why do libraries have Different Flaours of Gates?
+## Why do libraries have Different Flavours of Gates?
 A .lib contains multiple flavours of the same gate. Flavours differ by drive strength (X1,X2,X4), threshold voltage (LVT,SVT,HVT). This allows power-performance-area trade-offs during the design. Critical paths use faster gates while non-critical paths use slower,low-power gates.
 
 ## Introduction To Logic Synthesis
@@ -59,7 +59,7 @@ A .lib contains multiple flavours of the same gate. Flavours differ by drive str
 
 #### <ins>**Iverilog**</ins>
 ```bash
-$ sudo apt-get update
+$ sudo apt-get 
 $ sudo apt-get install iverilog
 ```
 <img width="500" height="507" alt="image" src="https://github.com/user-attachments/assets/f168cc2f-e880-4a99-8838-d3a68cd9760a" />
