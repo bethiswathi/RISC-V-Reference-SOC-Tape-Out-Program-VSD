@@ -1,6 +1,7 @@
-# Introduction to Verilog RTL design and Synthesis
+# Timing libs, Hierachical vs Flat synthesis and Efficient Flop Coding Styles
 
-## Introduction to open-source simulator iverilog
+## Introduction to Timing .libs
+
 
 ### <ins>**Simulator**</ins>
 Simulator is a software tool used for simulating the design to verify the correctness.
@@ -23,7 +24,11 @@ Testbench is like a environment or setup that applies test vectors to the design
 </div>
 Iverilog is a open-source verilog simulation tool.The design (HDL code) and testbench are compiled and simulated using iverilog. The simulation generates VCD (Value Change Dump) file which records all the signal changes over simkulation time. The VCD file is loaded into GTKWave, a tool to visulaize signal waveforms.
 
-## Lab Using iverilog and gtkwave
+## Hierachical Vs Flat Synthesis
+
+
+## Various Flop Coding Styles and Optimization
+
   
 
 
