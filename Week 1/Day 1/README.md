@@ -17,12 +17,11 @@ Testbench is like a environment or setup that applies test vectors to the design
   <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/8e3b10b0-b200-4537-88ea-540e064f83fb" />
 </div>
 
-### <ins>**How Simulator works**</ins>
-### 
-
+## Iverilog based simulation flow
 <div align="center">
   <img width="824" height="329" alt="image" src="https://github.com/user-attachments/assets/5ab70a47-df6b-448d-a163-16297bc3e9ae" />
 </div>
+The design (HDL code) and testbench are compiled and simulated using iverilog. The simulation generates VCD (Value Change Dump) file which records all the signal changes over simkulation time. The VCD file is loaded into GTKWave, a tool to visulaize signal waveforms.
 
 ### **Table of Contents**
   1. 
