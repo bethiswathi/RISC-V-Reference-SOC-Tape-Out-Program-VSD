@@ -1,4 +1,4 @@
-# Introduction to Verilog RTL design and Synthesis
+# GLS, Synthesis-Simulation Mismatch and Blocking/Mon-Blocking Statements
 
 ## Introduction to open-source simulator iverilog
 
