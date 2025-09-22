@@ -2,14 +2,29 @@
 
 ## Introduction to open-source simulator iverilog
 
+### <ins>**Simulator**</ins>
+Simulator is a software tool used for simulating the design to verify the correctness.
+iverilog is the tool used here.
 
+### <ins>**Design**</ins>
+Design is the actual verilog code that you want to implement in hardware.
+
+### <ins>**TestBench**</ins>
+Testbench is like a environment or setup that applies test vectors to the design to check if the outputs are correct  
+
+<div align="center">
+  <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/8e3b10b0-b200-4537-88ea-540e064f83fb" />
+</div>
+
+### <ins>**How Simulator works**</ins>
+### 
 ### **Table of Contents**
   1. 
   2. 50 GB HDD
   3. Ubuntu 20.04+
   4. 4vCPU
   5. 
-### **Tool Check**
+### **bsjkc**
 # RTL design and Synthesis Using Sky130
 
 This week is focussed on verilog RTL design, simulation, synthesis and optimization.
