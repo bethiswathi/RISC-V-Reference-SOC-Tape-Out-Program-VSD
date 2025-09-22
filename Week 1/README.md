@@ -1,5 +1,7 @@
 # RTL design and Synthesis Using Sky130
 
+This week is focussed on verilog RTL design, simulation, synthesis and optimization.
+
 ### **Table of Contents**
 <details>
   <summary> Day 1- Introduction to verilog RTL design and Synthesis<a href="Day 1/README.md"> Day 1/README.md</a></summary>
