@@ -1,6 +1,10 @@
-# Introduction to Verilog RTL design and Synthesis
+# Optimization in Synthesis
 
-## Introduction to open-source simulator iverilog
+## If Case Constructs
+
+
+## for loop and for generate
+
 
 ### <ins>**Simulator**</ins>
 Simulator is a software tool used for simulating the design to verify the correctness.
