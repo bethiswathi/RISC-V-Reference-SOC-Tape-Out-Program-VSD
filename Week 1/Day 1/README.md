@@ -21,7 +21,7 @@ Testbench is like a environment or setup that applies test vectors to the design
 <div align="center">
   <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/5ab70a47-df6b-448d-a163-16297bc3e9ae" />
 </div>
-The design (HDL code) and testbench are compiled and simulated using iverilog. The simulation generates VCD (Value Change Dump) file which records all the signal changes over simkulation time. The VCD file is loaded into GTKWave, a tool to visulaize signal waveforms.
+Iverilog is a open-source verilog simulation tool.The design (HDL code) and testbench are compiled and simulated using iverilog. The simulation generates VCD (Value Change Dump) file which records all the signal changes over simkulation time. The VCD file is loaded into GTKWave, a tool to visulaize signal waveforms.
 
 ## Lab Using iverilog and gtkwave
   
@@ -49,8 +49,12 @@ Yosys is a powerful open-source logic synthesis tool used in digital VLSI design
 ## Why do libraries have Different Flaours of Gates?
 A .lib contains multiple flavours of the same gate. Flavours differ by drive strength (X1,X2,X4), threshold voltage (LVT,SVT,HVT). This allows power-performance-area trade-offs during the design. Critical paths use faster gates while non-critical paths use slower,low-power gates.
 
+## Introduction To Logic Synthesis
+<div align="center">
+   <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3eabe123-17df-47e6-be98-11eafed373fe" />
+</div>
 
-
+## Lab Using Yosys and Sky130 PDK
 
 
 #### <ins>**Iverilog**</ins>
