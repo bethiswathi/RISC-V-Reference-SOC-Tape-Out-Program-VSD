@@ -2,9 +2,6 @@
 
 ## Introduction to open-source simulator iverilog
 
-### **Oracle Virtual machine link**
-https://www.virtualbox.org/wiki/Downloads
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7bd19570-d25a-4dfb-92fc-91abad89e48b" />
 
 ### **Table of Contents**
   1. 
@@ -17,24 +14,22 @@ https://www.virtualbox.org/wiki/Downloads
 
 This week is focussed on verilog RTL design, simulation, synthesis and optimization.
 
-### **Table of Contents**
-<details>
-  <summary> Day 1- Introduction to verilog RTL design and Synthesis<a href="Day 1/README.md"> Day 1/README.md</a></summary>
 
-  - Introduction to open-source simulator iverilog
-  - Labs using iverilog and gtkwave
-  - Introduction to Yosys and Logic synthesis
-  - Labs using Yosys and Sky 130 PDKs
-
-</details>
-<details>
-  <summary> Day 2- Timing libs, hierachical vs flat synthesis and efficient flop coding styles</summary>
-
-  - Introduction to timing .libs
-  - Hierachical vs Flat synthesis
   - Various Flop coding styles and optimization
 ### <ins>**Yosys**</ins>
 ```bash
+
+module good_mux (input i0 , input i1 , input sel , output reg y);
+always @ (*)
+begin
+	if(sel)
+		y <= i1;
+	else 
+		y <= i0;
+end
+endmodule
+
+
 $ sudo apt-get update
 $ git clone http://github.com/YosysHQ/yosys
 $ cd yosys
@@ -48,7 +43,9 @@ $ git submodule update --init --recursive
 $ make
 $ sudo make install
 ```
-<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/d471ae7a-2fab-47b1-9ccb-a5ac5bff32be" />
+<div align="center">
+  <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/d471ae7a-2fab-47b1-9ccb-a5ac5bff32be" />
+</div>
 
 #### <ins>**Iverilog**</ins>
 ```bash
