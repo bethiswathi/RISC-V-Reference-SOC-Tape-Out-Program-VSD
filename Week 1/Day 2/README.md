@@ -85,6 +85,10 @@ set and reset are used to initialize the flops which can be synchronous and asyn
    <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/493a5629-a0a5-4ebd-8de7-5dfd125621d5" />
 </div>
 
+<div align="center">
+   <img width="807" height="581" alt="image" src="https://github.com/user-attachments/assets/cdda1177-34ea-4727-857e-cc2fee5fe546" />
+</div>
+
 ## DFF with Asynchronous Reset
 The screenshot below shows DFF with asynchronous reset simulation in iverilog and waveform in gtkwave. Irrespective of clock and d, as soon as async_reset=1, q=0
 
