@@ -73,23 +73,20 @@ Sub-module level synthesis is necessary because
 ## Various Flop Coding Styles and Optimization
 
   
+<div align="center">
+   <img width="860" height="518" alt="image" src="https://github.com/user-attachments/assets/21bc425e-2e08-46d3-9c72-88d5284f4dfc" />
+</div>
 
-
-
+## 
+<div align="center">
+   <img width="822" height="385" alt="image" src="https://github.com/user-attachments/assets/493a5629-a0a5-4ebd-8de7-5dfd125621d5" />
+</div>
 
 <div align="center">
    <img width="940" height="433" alt="image" src="https://github.com/user-attachments/assets/cdf411b3-7d59-4fb8-96a3-a0c054bfa361" />
    <img width="940" height="350" alt="image" src="https://github.com/user-attachments/assets/c09c33ba-288b-46d0-b8c7-64b21ecd2aec" />
 </div>
 
-## Lab Using Yosys and Sky130 PDK
 
-
-#### <ins>**Iverilog**</ins>
-```bash
-$ sudo apt-get 
-$ sudo apt-get install iverilog
-```
-<img width="500" height="507" alt="image" src="https://github.com/user-attachments/assets/f168cc2f-e880-4a99-8838-d3a68cd9760a" />
 
 
