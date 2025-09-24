@@ -60,5 +60,7 @@ A .lib contains multiple flavours of the same gate. Flavours differ by drive str
     <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/071abaf4-5993-495f-ba3c-40fb542f70d4" />
     <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/a5825841-cf0d-48ac-a17d-89abe9b304ce" />
 	<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ea8df5cf-5446-48e3-8427-26fdfb444eec" />
+	<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/25b3acc7-f045-42b3-86a6-bb8ae383ede3" />
+
 </div>
 
