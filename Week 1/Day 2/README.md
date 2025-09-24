@@ -43,20 +43,27 @@ Hierachy is preserved here. We see the sub-modules instead of the AND ,OR gates 
 ### <ins>**Flat Synthesis**</ins> 
 Flat Synthesis removes hierachy, allowing global optimizations and potentially better performance/area but increases complexity and runtime. 
 <div align="center">
-  <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/25d3e970-6d9a-47f9-8527-3de4af01f92f" />
+  <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/25d3e970-6d9a-47f9-8527-3de4af01f92f" />
 </div>
 command to write flat netlist
 
 - flatten 
 
-## Sub Module Lvel Synthesis
+## Sub-Module Lvel Synthesis
 Sub module level synthesis optimizes each module individually balancing performance, area and power within its scope.
-It enables modular design reuse and faster compilation but may miss some cross modular global optimizations.
 
+### Importance of Sub-module level synthesis
+Sub-module level synthesis is necessary because 
+
+- Scalability: large massive designs are too big to synthesize flatty. Breaking them into sub-modules makes them manageable.
+- Faster Turn-around: Each block can be synthesized,verified and iterated independently, reducing the compile time.
+- Reuse of IPs: Pre synthesized/verified sub-modules( like ALUs,memories,controllers) can be reused across multiple designs.
+- Debug & ECO ease: Errors can be fixed at sub-module level without re-running synthesis for the full chip.
+- Parallel Processing: Different sub-modules can be synthesized concurrently, improving efficiency.
+        
 <div align="center">
-  <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/5ab70a47-df6b-448d-a163-16297bc3e9ae" />
+  <img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/31a5ecbb-ca32-429d-8edb-d00e9dc0d427" />
 </div>
-Iverilog is a open-source verilog simulation tool.The design (HDL code) and testbench are compiled and simulated using iverilog. The simulation generates VCD (Value Change Dump) file which records all the signal changes over simkulation time. The VCD file is loaded into GTKWave, a tool to visulaize signal waveforms.
 
 
 ## Various Flop Coding Styles and Optimization
@@ -64,17 +71,6 @@ Iverilog is a open-source verilog simulation tool.The design (HDL code) and test
   
 
 
-
-
-
-## Introduction to Yosys and Logic Synthesis
-<div align="center">
-    <img width="500" height="260" alt="image" src="https://github.com/user-attachments/assets/1f0d8586-5cb0-4a78-ba75-059aebde8979" />
-</div>
-Yosys is a powerful open-source logic synthesis tool used in digital VLSI design. The design is given to yosys tool using read_verilog and the library files using read_liberty. Yosys tool synthesizes the design using the library cells and the output is a netlist file (gate-level representation of the design). Netlist should be same as the design but represented in the form of standard cells.
-
-## Why do libraries have Different Flavours of Gates?
-A .lib contains multiple flavours of the same gate. Flavours differ by drive strength (X1,X2,X4), threshold voltage (LVT,SVT,HVT). This allows power-performance-area trade-offs during the design. Critical paths use faster gates while non-critical paths use slower,low-power gates.
 
 ## Introduction To Logic Synthesis
 <div align="center">
@@ -91,10 +87,4 @@ $ sudo apt-get install iverilog
 ```
 <img width="500" height="507" alt="image" src="https://github.com/user-attachments/assets/f168cc2f-e880-4a99-8838-d3a68cd9760a" />
 
-#### <ins>**gtkwave**</ins>
-```bash
-$ sudo apt-get update
-$ sudo apt install gtkwave
-```
-<img width="500" height="120" alt="image" src="https://github.com/user-attachments/assets/6b95cca0-fdb1-4407-b8f6-1b6ad72bb8ce" />
 
