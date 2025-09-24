@@ -26,6 +26,8 @@ tt stands for typical in the .lib name
 
 
 ### Hierachical Vs Flat Synthesis
+Hierachical Synthesis preserves module boundaries, enabling easier debugging, reuse and modular optimization but may miss some global optimizations. 
+Flat Synthesis removes hierachy, allowing global optimizations and potentially better performance/area but increases complexity and runtime. 
 <div align="center">
   <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/805a56d3-6786-454a-b025-4ba84b907e34" />
 </div>
