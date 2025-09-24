@@ -12,7 +12,7 @@ tt stands for typical in the .lib name
 1v80 stands for 1.8v in the .lib name
 
 <div align="center">
-  <img width="875" height="622" alt="image" src="https://github.com/user-attachments/assets/0f7135e9-549e-46e3-a742-fc097229d84c" />
+  <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/0f7135e9-549e-46e3-a742-fc097229d84c" />
 </div>
 
 .lib contains the following information related to each cell.
@@ -26,9 +26,9 @@ tt stands for typical in the .lib name
 
 
 ### Hierachical Vs Flat Synthesis
-Simulator is a software tool used for simulating the design to verify the correctness.
-iverilog is the tool used here. Simulator looks for the changes in the values of the input.
-The output of the simulator remains same if there is no change in the input values.
+<div align="center">
+  <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/805a56d3-6786-454a-b025-4ba84b907e34" />
+</div>
 
 ### <ins>**Design**</ins>
 Design is the actual verilog code that you want to implement in hardware.
@@ -55,17 +55,7 @@ Iverilog is a open-source verilog simulation tool.The design (HDL code) and test
 
 
 
-## Verilog Code Analysis
 
-module good_mux (input i0 , input i1 , input sel , output reg y);
-always @ (*)
-begin
-	if(sel)
-		y <= i1;
-	else 
-		y <= i0;
-end
-endmodule
 
 ## Introduction to Yosys and Logic Synthesis
 <div align="center">
