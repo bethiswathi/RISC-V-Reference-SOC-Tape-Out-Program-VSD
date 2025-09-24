@@ -49,7 +49,7 @@ command to write flat netlist
 
 - flatten 
 
-## Sub-Module Lvel Synthesis
+## Sub-Module Level Synthesis
 Sub module level synthesis optimizes each module individually balancing performance, area and power within its scope.
 
 ### Importance of Sub-module level synthesis
@@ -62,10 +62,10 @@ Sub-module level synthesis is necessary because
 - Parallel Processing: Different sub-modules can be synthesized concurrently, improving efficiency.
         
 <div align="center">
-  <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ea91b2c9-ebfb-4c87-a21c-94e7dd3439df" />
-  <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/65ffd506-bc83-44ea-a6f4-ee12c9a570b2" />
-  <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/b847dc62-07f1-47df-a39e-77cffc3b445e" />
-  <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/f8339686-55d1-4fce-92c1-9ca013fb92cb" />
+  <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/ea91b2c9-ebfb-4c87-a21c-94e7dd3439df" />
+  <img width="600" height="150" alt="image" src="https://github.com/user-attachments/assets/65ffd506-bc83-44ea-a6f4-ee12c9a570b2" />
+  <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/b847dc62-07f1-47df-a39e-77cffc3b445e" />
+  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/f8339686-55d1-4fce-92c1-9ca013fb92cb" />
   <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/31a5ecbb-ca32-429d-8edb-d00e9dc0d427" />
 </div>
 
@@ -74,19 +74,29 @@ Sub-module level synthesis is necessary because
 
   
 <div align="center">
-   <img width="860" height="518" alt="image" src="https://github.com/user-attachments/assets/21bc425e-2e08-46d3-9c72-88d5284f4dfc" />
+   <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/21bc425e-2e08-46d3-9c72-88d5284f4dfc" />
 </div>
 
-## 
+## Different Types of Flops
 <div align="center">
-   <img width="822" height="385" alt="image" src="https://github.com/user-attachments/assets/493a5629-a0a5-4ebd-8de7-5dfd125621d5" />
+   <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/493a5629-a0a5-4ebd-8de7-5dfd125621d5" />
+</div>
+
+## DFF with Asynchronous Reset
+The screenshot below shows DFF with asynchronous reset simulation in iverilog and waveform in gtkwave. Irrespective of clock and d, as soon as async_reset=1, q=0
+
+<div align="center">
+   <img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/cdf411b3-7d59-4fb8-96a3-a0c054bfa361" />
+   <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/c09c33ba-288b-46d0-b8c7-64b21ecd2aec" />
+</div>
+
+The commands to **synthesize** DFF with asynchronous reset are 
+<div align="left">
+   <img width="500" height="130" alt="image" src="https://github.com/user-attachments/assets/207314a4-0625-47a9-88b5-1b947db52489" />
 </div>
 
 <div align="center">
-   <img width="940" height="433" alt="image" src="https://github.com/user-attachments/assets/cdf411b3-7d59-4fb8-96a3-a0c054bfa361" />
-   <img width="940" height="350" alt="image" src="https://github.com/user-attachments/assets/c09c33ba-288b-46d0-b8c7-64b21ecd2aec" />
+    <img width="940" height="535" alt="image" src="https://github.com/user-attachments/assets/5dd85e87-aaad-4d2b-8bac-f3255c5b35e0" />
 </div>
-
-
 
 
