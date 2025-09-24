@@ -34,19 +34,10 @@ The waveform is shown as below
     <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/beef54e0-63c0-4f5f-837b-5213a8053574" />
 </div>
 
-
-
-## Verilog Code Analysis
-
-module good_mux (input i0 , input i1 , input sel , output reg y);
-always @ (*)
-begin
-	if(sel)
-		y <= i1;
-	else 
-		y <= i0;
-end
-endmodule
+## Verilog Code 
+<div align="center">
+   <img width="802" height="366" alt="image" src="https://github.com/user-attachments/assets/23bcdeef-85af-4bb3-9e9d-fdcd11ef577d" />
+</div>
 
 ## Introduction to Yosys and Synthesis
 <div align="center">
@@ -68,19 +59,6 @@ A .lib contains multiple flavours of the same gate. Flavours differ by drive str
 	<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/185e1998-e528-467e-a758-d96a0dc3f91b" />
     <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/071abaf4-5993-495f-ba3c-40fb542f70d4" />
     <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/a5825841-cf0d-48ac-a17d-89abe9b304ce" />
-	<img width="651" height="376" alt="image" src="https://github.com/user-attachments/assets/ea8df5cf-5446-48e3-8427-26fdfb444eec" />
+	<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ea8df5cf-5446-48e3-8427-26fdfb444eec" />
 </div>
 
-#### <ins>**Iverilog**</ins>
-```bash
-$ sudo apt-get 
-$ sudo apt-get install iverilog
-```
-<img width="500" height="507" alt="image" src="https://github.com/user-attachments/assets/f168cc2f-e880-4a99-8838-d3a68cd9760a" />
-
-#### <ins>**gtkwave**</ins>
-```bash
-$ sudo apt-get update
-$ sudo apt install gtkwave
-```
-<img width="500" height="120" alt="image" src="https://github.com/user-attachments/assets/6b95cca0-fdb1-4407-b8f6-1b6ad72bb8ce" />
