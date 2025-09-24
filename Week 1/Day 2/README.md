@@ -62,7 +62,11 @@ Sub-module level synthesis is necessary because
 - Parallel Processing: Different sub-modules can be synthesized concurrently, improving efficiency.
         
 <div align="center">
-  <img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/31a5ecbb-ca32-429d-8edb-d00e9dc0d427" />
+  <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ea91b2c9-ebfb-4c87-a21c-94e7dd3439df" />
+  <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/65ffd506-bc83-44ea-a6f4-ee12c9a570b2" />
+  <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/b847dc62-07f1-47df-a39e-77cffc3b445e" />
+  <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/f8339686-55d1-4fce-92c1-9ca013fb92cb" />
+  <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/31a5ecbb-ca32-429d-8edb-d00e9dc0d427" />
 </div>
 
 
