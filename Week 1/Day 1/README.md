@@ -24,7 +24,15 @@ Testbench is like a environment or setup that applies test vectors to the design
 Iverilog is a open-source verilog simulation tool.The design (HDL code) and testbench are compiled and simulated using iverilog. The simulation generates VCD (Value Change Dump) file which records all the signal changes over simkulation time. The VCD file is loaded into GTKWave, a tool to visulaize signal waveforms.
 
 ## Lab Using iverilog and gtkwave
-  
+<div align="center">
+    <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/73e8f45c-d1d6-4275-b51d-0e15714e2c48" />
+</div>
+The output of iverilog is a .vcd file and a.out is created. By executed a.out iverilog dumps the vcd file.
+gtkwave is used to generate the waveform and display in visual format.
+The waveform is shown as below
+<div align="center">
+    <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/beef54e0-63c0-4f5f-837b-5213a8053574" />
+</div>
 
 
 
@@ -40,7 +48,7 @@ begin
 end
 endmodule
 
-## Introduction to Yosys and Logic Synthesis
+## Introduction to Yosys and Synthesis
 <div align="center">
     <img width="500" height="260" alt="image" src="https://github.com/user-attachments/assets/1f0d8586-5cb0-4a78-ba75-059aebde8979" />
 </div>
@@ -55,7 +63,13 @@ A .lib contains multiple flavours of the same gate. Flavours differ by drive str
 </div>
 
 ## Lab Using Yosys and Sky130 PDK
-
+<div align="center">
+	<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/fd1b03d3-0ec2-45dd-a3fb-9497318eba34" />
+	<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/185e1998-e528-467e-a758-d96a0dc3f91b" />
+    <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/071abaf4-5993-495f-ba3c-40fb542f70d4" />
+    <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/a5825841-cf0d-48ac-a17d-89abe9b304ce" />
+	<img width="651" height="376" alt="image" src="https://github.com/user-attachments/assets/ea8df5cf-5446-48e3-8427-26fdfb444eec" />
+</div>
 
 #### <ins>**Iverilog**</ins>
 ```bash
