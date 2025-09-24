@@ -36,7 +36,7 @@ The waveform is shown as below
 
 ## Verilog Code 
 <div align="center">
-   <img width="802" height="366" alt="image" src="https://github.com/user-attachments/assets/23bcdeef-85af-4bb3-9e9d-fdcd11ef577d" />
+   <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/23bcdeef-85af-4bb3-9e9d-fdcd11ef577d" />
 </div>
 
 ## Introduction to Yosys and Synthesis
