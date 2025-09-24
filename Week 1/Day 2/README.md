@@ -1,9 +1,31 @@
 # Timing libs, Hierachical vs Flat synthesis and Efficient Flop Coding Styles
 
 ## Introduction to Timing .libs
+Libraries are characterized based on PVT conditions
+Process --> Variations due to fabrication
+Voltage --> Variations due to voltage
+Temperature --> Variations due to temperature
+
+Below is the screenshot of the .lib file
+tt stands for typical in the .lib name
+025 stands for temperature of 25 C in the .lib name
+1v80 stands for 1.8v in the .lib name
+
+<div align="center">
+  <img width="875" height="622" alt="image" src="https://github.com/user-attachments/assets/0f7135e9-549e-46e3-a742-fc097229d84c" />
+</div>
+
+.lib contains the following information related to each cell.
+- Area
+- Power
+- Leakage power based on combination of inputs
+- Power associated with the pin
+- Transition
+- Delay
+- Input capacitance
 
 
-### <ins>**Simulator**</ins>
+### Hierachical Vs Flat Synthesis
 Simulator is a software tool used for simulating the design to verify the correctness.
 iverilog is the tool used here. Simulator looks for the changes in the values of the input.
 The output of the simulator remains same if there is no change in the input values.
