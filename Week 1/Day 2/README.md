@@ -12,7 +12,7 @@ tt stands for typical in the .lib name
 1v80 stands for 1.8v in the .lib name
 
 <div align="center">
-  <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/0f7135e9-549e-46e3-a742-fc097229d84c" />
+  <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/0f7135e9-549e-46e3-a742-fc097229d84c" />
 </div>
 
 .lib contains the following information related to each cell.
@@ -25,30 +25,39 @@ tt stands for typical in the .lib name
 - Input capacitance
 
 
-### Hierachical Vs Flat Synthesis
+### <ins>**Hierachical Synthesis**</ins>
 Hierachical Synthesis preserves module boundaries, enabling easier debugging, reuse and modular optimization but may miss some global optimizations. 
 Flat Synthesis removes hierachy, allowing global optimizations and potentially better performance/area but increases complexity and runtime. 
+ 
 <div align="center">
   <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/805a56d3-6786-454a-b025-4ba84b907e34" />
+  <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/8a92a66f-ccf2-4a83-af2b-adfd11586328" />
 </div>
+Above is the example of Hierachical synthesis of multiple_modules.v. The following is the report after synthesizing multiple_modules.v. From the screen shot we can observe that module1 has 1 AND gate whereas module2 has 1 OR gate. 
 
-### <ins>**Design**</ins>
-Design is the actual verilog code that you want to implement in hardware.
-
-### <ins>**TestBench**</ins>
-Testbench is like a environment or setup that applies test vectors to the design to check if the outputs are correct  
-
+Hierachy is preserved here. We see the sub-modules instead of the AND ,OR gates when we run show command.
 <div align="center">
-  <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/8e3b10b0-b200-4537-88ea-540e064f83fb" />
+  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/bfb6d014-158e-44ee-afcc-f50a147e6ab5" />
+  <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/c2405a31-2332-4135-8dcc-167b473cc070" />
 </div>
 
-## Iverilog based simulation flow
+### <ins>**Flat Synthesis**</ins> 
+Flat Synthesis removes hierachy, allowing global optimizations and potentially better performance/area but increases complexity and runtime. 
+<div align="center">
+  <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/25d3e970-6d9a-47f9-8527-3de4af01f92f" />
+</div>
+command to write flat netlist
+
+- flatten 
+
+## Sub Module Lvel Synthesis
+Sub module level synthesis optimizes each module individually balancing performance, area and power within its scope.
+It enables modular design reuse and faster compilation but may miss some cross modular global optimizations.
+
 <div align="center">
   <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/5ab70a47-df6b-448d-a163-16297bc3e9ae" />
 </div>
 Iverilog is a open-source verilog simulation tool.The design (HDL code) and testbench are compiled and simulated using iverilog. The simulation generates VCD (Value Change Dump) file which records all the signal changes over simkulation time. The VCD file is loaded into GTKWave, a tool to visulaize signal waveforms.
-
-## Hierachical Vs Flat Synthesis
 
 
 ## Various Flop Coding Styles and Optimization
