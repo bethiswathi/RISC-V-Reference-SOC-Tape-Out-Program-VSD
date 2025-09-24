@@ -76,9 +76,10 @@ Sub-module level synthesis is necessary because
 
 
 
-## Introduction To Logic Synthesis
+
 <div align="center">
-   <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3eabe123-17df-47e6-be98-11eafed373fe" />
+   <img width="940" height="433" alt="image" src="https://github.com/user-attachments/assets/cdf411b3-7d59-4fb8-96a3-a0c054bfa361" />
+   <img width="940" height="350" alt="image" src="https://github.com/user-attachments/assets/c09c33ba-288b-46d0-b8c7-64b21ecd2aec" />
 </div>
 
 ## Lab Using Yosys and Sky130 PDK
