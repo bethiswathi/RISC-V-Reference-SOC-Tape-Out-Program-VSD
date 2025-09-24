@@ -107,7 +107,17 @@ The screenshot below shows the **synthesis of synchronous reset**
    <img width="940" height="530" alt="image" src="https://github.com/user-attachments/assets/d73f1af9-5290-4c7d-9293-64eae5f0403c" />
 </div>
 
+## Synthesizing mult2
 
+<div align="center">
+   <img width="886" height="530" alt="image" src="https://github.com/user-attachments/assets/99723c95-3371-4a73-8f61-486e0f97676c" />
+</div>
+
+## Synthesizing mult8
+
+<div align="center">
+   <img width="855" height="556" alt="image" src="https://github.com/user-attachments/assets/5207ba11-76c1-4a3e-994f-b549c9c45ce0" />
+</div>
 
 
 
