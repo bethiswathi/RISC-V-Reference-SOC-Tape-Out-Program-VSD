@@ -71,13 +71,16 @@ Sub-module level synthesis is necessary because
 
 
 ## Various Flop Coding Styles and Optimization
+Different coding styles exist because different design requirements demand different behaviors. Certain flop styles reduce switching or leakage for low-power designs. Some styles are faster or better for critical timing paths. Different flop styles give flexibility to meet functional, timing, power and test requirements.
 
+Glitches occur in digital circuits due to signal delays, noise or timing issues. Flip flops avoid glitches by sampling the inputs only on the active clock edge. They provide synchronization, state retention and timing control in digital circuits.
   
 <div align="center">
    <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/21bc425e-2e08-46d3-9c72-88d5284f4dfc" />
 </div>
 
 ## Different Types of Flops
+set and reset are used to initialize the flops which can be synchronous and asynchronous. 
 <div align="center">
    <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/493a5629-a0a5-4ebd-8de7-5dfd125621d5" />
 </div>
@@ -90,7 +93,7 @@ The screenshot below shows DFF with asynchronous reset simulation in iverilog an
    <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/c09c33ba-288b-46d0-b8c7-64b21ecd2aec" />
 </div>
 
-The commands to **synthesize** DFF with asynchronous reset are 
+The commands to **synthesize DFF with asynchronous reset** are 
 <div align="left">
    <img width="500" height="130" alt="image" src="https://github.com/user-attachments/assets/207314a4-0625-47a9-88b5-1b947db52489" />
 </div>
@@ -98,5 +101,14 @@ The commands to **synthesize** DFF with asynchronous reset are
 <div align="center">
     <img width="940" height="535" alt="image" src="https://github.com/user-attachments/assets/5dd85e87-aaad-4d2b-8bac-f3255c5b35e0" />
 </div>
+
+The screenshot below shows the **synthesis of synchronous reset** 
+<div align="center">
+   <img width="940" height="530" alt="image" src="https://github.com/user-attachments/assets/d73f1af9-5290-4c7d-9293-64eae5f0403c" />
+</div>
+
+
+
+
 
 
