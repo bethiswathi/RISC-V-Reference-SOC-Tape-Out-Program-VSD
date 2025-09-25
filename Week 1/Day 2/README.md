@@ -2,9 +2,9 @@
 
 ## Introduction to Timing .libs
 Libraries are characterized based on PVT conditions
-Process --> Variations due to fabrication
-Voltage --> Variations due to voltage
-Temperature --> Variations due to temperature
+- Process --> Variations due to fabrication
+- Voltage --> Variations due to voltage
+- Temperature --> Variations due to temperature
 
 Below is the screenshot of the .lib file
 tt stands for typical in the .lib name
