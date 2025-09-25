@@ -1,4 +1,3 @@
-
 # Combinational and Sequential Optimizations
 
 ## Introduction to Optimizations
