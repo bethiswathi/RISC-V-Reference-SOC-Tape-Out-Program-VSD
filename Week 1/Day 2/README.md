@@ -40,6 +40,17 @@ Hierachy is preserved here. We see the sub-modules instead of the AND ,OR gates 
   <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/c2405a31-2332-4135-8dcc-167b473cc070" />
 </div>
 
+## Why stacking PMOS is bad
+In CMOS design,stacked PMOS transistors(two or more PMOS connected in series, as in pull-up networks for logic like NAND gates) are often considered **bad** comopared to stacked NMOS because of the following reasons:
+- Poor drive strength(high resistance):
+   - PMOS devices already have lower mobility of holes compared to electrons in NMOS.
+   - When you stack multiple PMOS in series, their effective resistance increases further, making the pull-up path weaker and slower.
+- Slower switching speed :
+   - Because of the higher reistance and reduced current drive, the rising transition(0 to 1) takes longer when multiple PMOS are stacked.
+   - This limits performance, especially in gates with more inputs (like NOR gates).   
+
+
+
 ### <ins>**Flat Synthesis**</ins> 
 Flat Synthesis removes hierachy, allowing global optimizations and potentially better performance/area but increases complexity and runtime. 
 <div align="center">
@@ -97,7 +108,7 @@ The screenshot below shows DFF with asynchronous reset simulation in iverilog an
    <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/c09c33ba-288b-46d0-b8c7-64b21ecd2aec" />
 </div>
 
-The commands to **synthesize DFF with asynchronous reset** are 
+The commands to <ins>**synthesize DFF with asynchronous reset**</ins> are 
 <div align="left">
    <img width="500" height="130" alt="image" src="https://github.com/user-attachments/assets/207314a4-0625-47a9-88b5-1b947db52489" />
 </div>
@@ -106,7 +117,7 @@ The commands to **synthesize DFF with asynchronous reset** are
     <img width="940" height="535" alt="image" src="https://github.com/user-attachments/assets/5dd85e87-aaad-4d2b-8bac-f3255c5b35e0" />
 </div>
 
-The screenshot below shows the **synthesis of synchronous reset** 
+The screenshot below shows the <ins>**synthesis of synchronous reset**</ins> 
 <div align="center">
    <img width="940" height="530" alt="image" src="https://github.com/user-attachments/assets/d73f1af9-5290-4c7d-9293-64eae5f0403c" />
 </div>
