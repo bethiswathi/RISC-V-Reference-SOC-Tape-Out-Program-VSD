@@ -49,8 +49,6 @@ In CMOS design,stacked PMOS transistors(two or more PMOS connected in series, as
    - Because of the higher reistance and reduced current drive, the rising transition(0 to 1) takes longer when multiple PMOS are stacked.
    - This limits performance, especially in gates with more inputs (like NOR gates).   
 
-
-
 ### <ins>**Flat Synthesis**</ins> 
 Flat Synthesis removes hierachy, allowing global optimizations and potentially better performance/area but increases complexity and runtime. 
 <div align="center">
