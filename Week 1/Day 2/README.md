@@ -58,7 +58,7 @@ command to write flat netlist
 
 - flatten 
 
-
+## Differences between Hierachical and Flat Synthesis
 | Aspect | Hierachical Synthesis | Flat Synthesis|
 |--------|-----------------------|---------------|
 |Design Method| Synthesizes block by block| Synthesizes as one big block|
