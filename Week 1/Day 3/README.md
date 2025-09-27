@@ -52,11 +52,17 @@ Consider a DFF with asynchronous reset with D as grounded. The output Q=0 when r
 	<img width="940" height="523" alt="image" src="https://github.com/user-attachments/assets/e7e0d754-46de-4c08-8393-efcd3d1e8746" />
 </div>
 
- An example of **Retiming** is shown below.
- 
+An example of **Retiming** is shown below.
+- Retiming is a sequential optimization technique where the flops are moved across combinational logic without changing the overall functionality of the circuit.The goal is to balance the path delays and improve performance.
+- Retiming redistributes the registers to shorten the longest paths.
+  
+- Before retiming
+    - path delay=5ns --> Max fequency=200MHZ
+- After retiming
+    - critical path reduced to 4ns ---> Max frequency=250MHZ
+
 <div align="center">
 	<img width="940" height="513" alt="image" src="https://github.com/user-attachments/assets/1e2f9798-ef3e-47e8-a59c-b6dc6b49687f" />
-
 </div>
 
 
