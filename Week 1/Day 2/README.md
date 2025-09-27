@@ -58,6 +58,18 @@ command to write flat netlist
 
 - flatten 
 
+
+| Aspect | Hierachical Synthesis | Flat Synthesis|
+|--------|-----------------------|---------------|
+|Design Method| Synthesizes block by block| Synthesizes as one big block|
+|Hierachy| Preserved| Not Preserved|
+|Compile Time| Faster since modules are handled seperately| Slower due to synthesizing everything at once|
+|Memory Usage| Lower| Higher|
+|Debugging| Easier to trace within preserved hierachy| Harder to debug as hierachy is lost|
+|Reusability| Modules can be reused in other designs| No reusability|
+|Suitable for| Larger or complex designs| Not suitable for large designs|
+
+
 ## Sub-Module Level Synthesis
 Sub module level synthesis optimizes each module individually balancing performance, area and power within its scope.
 
