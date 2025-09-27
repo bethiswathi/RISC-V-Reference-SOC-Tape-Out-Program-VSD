@@ -67,26 +67,25 @@ An example of **Retiming** is shown below.
 
 ## Lab for Combinational Logic Optimizations
 Command for optimization
-
 <div align="left">
 	<img width="200" height="40" alt="image" src="https://github.com/user-attachments/assets/cfc0d731-7b29-4702-9cf6-3da4ddf5f43e" />
 </div>
 
-### Optimizations for opt_check.v
+## Optimizations for opt_check.v
 <div align="center">
 	<img width="900" height="90" alt="image" src="https://github.com/user-attachments/assets/47d91e2b-9ab8-420a-bc62-8f5ba5bc877e" />
 	<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/a1d9fd59-69d3-4055-9c93-18f85abb54bc" />
 	<img width="939" height="500" alt="image" src="https://github.com/user-attachments/assets/31bc73cd-f881-4af1-bcb3-c15dceb6d3dd" />
 </div>
 
-### Optimizations for opt_check2.v
+## Optimizations for opt_check2.v
 <div align="center">
 	<img width="900" height="90" alt="image" src="https://github.com/user-attachments/assets/98194100-c254-41ab-8fff-e887a84c4e41" />
 	<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/8c6b5ca2-b483-4985-86ca-f261775e5bdc" />
 	<img width="939" height="515" alt="image" src="https://github.com/user-attachments/assets/ad93fe26-3cc6-49b1-9db9-b56176f514e1" />
 </div>
 
-### Optimizations for opt_check3.v
+## Optimizations for opt_check3.v
 <div align="center">
 	<img width="836" height="102" alt="image" src="https://github.com/user-attachments/assets/8f2bb84d-44e9-4d19-be4d-b1c65e8587ea" />
 	<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/b11b1abf-6f7b-4a50-b3dd-208784a0ffec" />
@@ -99,8 +98,12 @@ Command for optimization
 	<img width="940" height="519" alt="image" src="https://github.com/user-attachments/assets/8a5e1caa-6203-4117-9820-cca452d83e4d" />
 </div>
 
+## Lab for Sequential Logic Optimizations
+<div align="center">
+    <img width="791" height="398" alt="image" src="https://github.com/user-attachments/assets/06d6eb1c-d687-4003-93fa-74c6e37ef59a" />
+</div>
 
-### Optimizations for dff_const1.v
+## Optimizations for dff_const1.v
 <div align="center">
 	<img width="500" height="106" alt="image" src="https://github.com/user-attachments/assets/bb1531c9-7bee-46c4-a162-c92248053969" />
 	<img width="940" height="372" alt="image" src="https://github.com/user-attachments/assets/50b01b85-fb2c-4a92-b2ba-aeac16969d1e" />
@@ -108,13 +111,13 @@ Command for optimization
     <img width="940" height="469" alt="image" src="https://github.com/user-attachments/assets/614d8c40-27e8-4d26-84cd-69079c67bb19" />
 </div>
 
-### Optimizations for dff_const2.v
+## Optimizations for dff_const2.v
 <div align="center">
 	<img width="940" height="358" alt="image" src="https://github.com/user-attachments/assets/bc074db7-bf3e-4f09-852b-14d9a88bc248" />
 	<img width="940" height="551" alt="image" src="https://github.com/user-attachments/assets/bd5c9dc0-e33a-4772-a62f-221452e833b1" />
 </div>
 
-### Optimizations for dff_const3.v
+## Optimizations for dff_const3.v
 <div align="center">
 	<img width="500" height="113" alt="image" src="https://github.com/user-attachments/assets/e8393bac-2ace-4605-988a-01b6464781f6" />
     <img width="940" height="357" alt="image" src="https://github.com/user-attachments/assets/8b65b606-249c-4635-8e67-e108248e3eae" />
@@ -122,32 +125,35 @@ Command for optimization
     <img width="940" height="253" alt="image" src="https://github.com/user-attachments/assets/1835f763-ebb4-49de-bf49-9a63e1c6c8c2" />
 </div>
 
-### Optimizations for dff_const4.v
+## Optimizations for dff_const4.v
 <div align="center">
 	<img width="940" height="379" alt="image" src="https://github.com/user-attachments/assets/b58c6943-d7c3-4547-a2d1-a1508ddb1b59" />
     <img width="940" height="524" alt="image" src="https://github.com/user-attachments/assets/4daa4d16-6778-49e1-9aac-a2f94fe5a3bc" />
 </div>
 
-### Optimizations for dff_const5.v
+## Optimizations for dff_const5.v
 <div align="center">
     <img width="940" height="382" alt="image" src="https://github.com/user-attachments/assets/80d39cb9-f47f-4fc6-bf9e-d5a3784f0e6b" />
 	<img width="402" height="548" alt="image" src="https://github.com/user-attachments/assets/02e880ed-0630-4425-8fe0-fe187537b63e" />
     <img width="940" height="220" alt="image" src="https://github.com/user-attachments/assets/4c830601-516a-4bb7-a966-bf4defef47ac" />
 </div>
 
-
-
+## Sequential Optimizations for Unused Outputs
+## Optimization of counter_opt.v
 <div align="center">
-    <img width="500" height="260" alt="image" src="https://github.com/user-attachments/assets/1f0d8586-5cb0-4a78-ba75-059aebde8979" />
+	<img width="940" height="215" alt="image" src="https://github.com/user-attachments/assets/1ab44278-432f-4ea4-874c-8691fefe8379" />
+    <img width="601" height="552" alt="image" src="https://github.com/user-attachments/assets/17e16d8c-b5b3-4174-ab0d-e4e8d2f661b4" />
+    <img width="1046" height="365" alt="image" src="https://github.com/user-attachments/assets/5f2f718e-c9eb-41d4-9dd5-6b19b2364864" />
+</div>
+
+## Optimization of counter_opt2.v
+<div align="center">
+     <img width="777" height="548" alt="image" src="https://github.com/user-attachments/assets/16fb1266-4c35-468b-aed4-73e1584e777c" />
+     <img width="940" height="330" alt="image" src="https://github.com/user-attachments/assets/020f0d5c-fd33-4832-9bb6-91eec54b67c1" />
 </div>
 
 
 
-## Introduction To Logic Synthesis
-<div align="center">
-   <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3eabe123-17df-47e6-be98-11eafed373fe" />
-</div>
 
-## Lab Using Yosys and Sky130 PDK
 
 
