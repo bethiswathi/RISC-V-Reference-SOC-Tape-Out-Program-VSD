@@ -102,21 +102,21 @@ Command for optimization
 
 ### Optimizations for dff_const1.v
 <div align="center">
-	<img width="705" height="106" alt="image" src="https://github.com/user-attachments/assets/bb1531c9-7bee-46c4-a162-c92248053969" />
+	<img width="500" height="106" alt="image" src="https://github.com/user-attachments/assets/bb1531c9-7bee-46c4-a162-c92248053969" />
 	<img width="940" height="372" alt="image" src="https://github.com/user-attachments/assets/50b01b85-fb2c-4a92-b2ba-aeac16969d1e" />
-    <img width="931" height="174" alt="image" src="https://github.com/user-attachments/assets/05705b3e-10f9-4b41-951a-001fbdf3f315" />
+    <img width="600" height="174" alt="image" src="https://github.com/user-attachments/assets/05705b3e-10f9-4b41-951a-001fbdf3f315" />
     <img width="940" height="469" alt="image" src="https://github.com/user-attachments/assets/614d8c40-27e8-4d26-84cd-69079c67bb19" />
 </div>
 
 ### Optimizations for dff_const2.v
 <div align="center">
+	<img width="940" height="358" alt="image" src="https://github.com/user-attachments/assets/bc074db7-bf3e-4f09-852b-14d9a88bc248" />
 	<img width="940" height="551" alt="image" src="https://github.com/user-attachments/assets/bd5c9dc0-e33a-4772-a62f-221452e833b1" />
-
 </div>
 
 ### Optimizations for dff_const3.v
 <div align="center">
-	<img width="706" height="113" alt="image" src="https://github.com/user-attachments/assets/e8393bac-2ace-4605-988a-01b6464781f6" />
+	<img width="500" height="113" alt="image" src="https://github.com/user-attachments/assets/e8393bac-2ace-4605-988a-01b6464781f6" />
     <img width="940" height="357" alt="image" src="https://github.com/user-attachments/assets/8b65b606-249c-4635-8e67-e108248e3eae" />
     <img width="738" height="574" alt="image" src="https://github.com/user-attachments/assets/8c10b5be-0959-4cc7-8c9e-b49520c70309" />
     <img width="940" height="253" alt="image" src="https://github.com/user-attachments/assets/1835f763-ebb4-49de-bf49-9a63e1c6c8c2" />
@@ -124,12 +124,14 @@ Command for optimization
 
 ### Optimizations for dff_const4.v
 <div align="center">
+	<img width="940" height="379" alt="image" src="https://github.com/user-attachments/assets/b58c6943-d7c3-4547-a2d1-a1508ddb1b59" />
     <img width="940" height="524" alt="image" src="https://github.com/user-attachments/assets/4daa4d16-6778-49e1-9aac-a2f94fe5a3bc" />
 </div>
 
 ### Optimizations for dff_const5.v
 <div align="center">
-    <img width="402" height="548" alt="image" src="https://github.com/user-attachments/assets/02e880ed-0630-4425-8fe0-fe187537b63e" />
+    <img width="940" height="382" alt="image" src="https://github.com/user-attachments/assets/80d39cb9-f47f-4fc6-bf9e-d5a3784f0e6b" />
+	<img width="402" height="548" alt="image" src="https://github.com/user-attachments/assets/02e880ed-0630-4425-8fe0-fe187537b63e" />
     <img width="940" height="220" alt="image" src="https://github.com/user-attachments/assets/4c830601-516a-4bb7-a966-bf4defef47ac" />
 </div>
 
