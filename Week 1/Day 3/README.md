@@ -25,10 +25,17 @@ In digital design **optimization** refers to the process of improving a design t
     - K-map
     - Quine McKluskey
 
+### <ins>**Constant Propogation**</ins>
 <div align="center">
    <img width="940" height="454" alt="image" src="https://github.com/user-attachments/assets/7c311537-8285-46bc-919c-21d588a1c15f" />
 </div>
-In the above screenshot we can observe a NAND and OR gate. The output Y=(AB+C)'. If A=0, then the output=c.
+In the above screenshot we can observe a NAND and OR gate. The output Y=(AB+C)'. If A=0, then the output=c'.When the above circuit is realized in the form of transistors, the no. of transistors get reduced from 6 to 2 thereby reducing the area and power.
+
+### <ins>**Boolean Logic optimization**</ins>
+<div align="center">
+	<img width="940" height="422" alt="image" src="https://github.com/user-attachments/assets/0dbec27f-b924-46cb-93a6-0d448b0acf74" />
+</div>
+
 ## Sequential Optimizations
 
 
