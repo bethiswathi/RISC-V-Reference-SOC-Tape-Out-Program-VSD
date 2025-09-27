@@ -79,16 +79,17 @@ Command for optimization
 	<img width="939" height="500" alt="image" src="https://github.com/user-attachments/assets/31bc73cd-f881-4af1-bcb3-c15dceb6d3dd" />
 </div>
 
-## Optimizations for opt_check2.v
+### Optimizations for opt_check2.v
 <div align="center">
 	<img width="900" height="90" alt="image" src="https://github.com/user-attachments/assets/98194100-c254-41ab-8fff-e887a84c4e41" />
 	<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/8c6b5ca2-b483-4985-86ca-f261775e5bdc" />
 	<img width="939" height="515" alt="image" src="https://github.com/user-attachments/assets/ad93fe26-3cc6-49b1-9db9-b56176f514e1" />
 </div>
 
-## Optimizations for opt_check3.v
+### Optimizations for opt_check3.v
 <div align="center">
 	<img width="836" height="102" alt="image" src="https://github.com/user-attachments/assets/8f2bb84d-44e9-4d19-be4d-b1c65e8587ea" />
+	<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/b11b1abf-6f7b-4a50-b3dd-208784a0ffec" />
 	<img width="927" height="538" alt="image" src="https://github.com/user-attachments/assets/5ee4ec93-b72d-46bb-9106-9d4cb3e883d0" />
 </div>
 
@@ -99,20 +100,46 @@ Command for optimization
 </div>
 
 
+### Optimizations for dff_const1.v
+<div align="center">
+	<img width="705" height="106" alt="image" src="https://github.com/user-attachments/assets/bb1531c9-7bee-46c4-a162-c92248053969" />
+	<img width="940" height="372" alt="image" src="https://github.com/user-attachments/assets/50b01b85-fb2c-4a92-b2ba-aeac16969d1e" />
+    <img width="931" height="174" alt="image" src="https://github.com/user-attachments/assets/05705b3e-10f9-4b41-951a-001fbdf3f315" />
+    <img width="940" height="469" alt="image" src="https://github.com/user-attachments/assets/614d8c40-27e8-4d26-84cd-69079c67bb19" />
+</div>
+
+### Optimizations for dff_const2.v
+<div align="center">
+	<img width="940" height="551" alt="image" src="https://github.com/user-attachments/assets/bd5c9dc0-e33a-4772-a62f-221452e833b1" />
+
+</div>
+
+### Optimizations for dff_const3.v
+<div align="center">
+	<img width="706" height="113" alt="image" src="https://github.com/user-attachments/assets/e8393bac-2ace-4605-988a-01b6464781f6" />
+    <img width="940" height="357" alt="image" src="https://github.com/user-attachments/assets/8b65b606-249c-4635-8e67-e108248e3eae" />
+    <img width="738" height="574" alt="image" src="https://github.com/user-attachments/assets/8c10b5be-0959-4cc7-8c9e-b49520c70309" />
+    <img width="940" height="253" alt="image" src="https://github.com/user-attachments/assets/1835f763-ebb4-49de-bf49-9a63e1c6c8c2" />
+</div>
+
+### Optimizations for dff_const4.v
+<div align="center">
+    <img width="940" height="524" alt="image" src="https://github.com/user-attachments/assets/4daa4d16-6778-49e1-9aac-a2f94fe5a3bc" />
+</div>
+
+### Optimizations for dff_const5.v
+<div align="center">
+    <img width="402" height="548" alt="image" src="https://github.com/user-attachments/assets/02e880ed-0630-4425-8fe0-fe187537b63e" />
+    <img width="940" height="220" alt="image" src="https://github.com/user-attachments/assets/4c830601-516a-4bb7-a966-bf4defef47ac" />
+</div>
+
 
 
 <div align="center">
     <img width="500" height="260" alt="image" src="https://github.com/user-attachments/assets/1f0d8586-5cb0-4a78-ba75-059aebde8979" />
 </div>
 
-## Introduction to Yosys and Logic Synthesis
-<div align="center">
-    <img width="500" height="260" alt="image" src="https://github.com/user-attachments/assets/1f0d8586-5cb0-4a78-ba75-059aebde8979" />
-</div>
-Yosys is a powerful open-source logic synthesis tool used in digital VLSI design. The design is given to yosys tool using read_verilog and the library files using read_liberty. Yosys tool synthesizes the design using the library cells and the output is a netlist file (gate-level representation of the design). Netlist should be same as the design but represented in the form of standard cells.
 
-## Why do libraries have Different Flavours of Gates?
-A .lib contains multiple flavours of the same gate. Flavours differ by drive strength (X1,X2,X4), threshold voltage (LVT,SVT,HVT). This allows power-performance-area trade-offs during the design. Critical paths use faster gates while non-critical paths use slower,low-power gates.
 
 ## Introduction To Logic Synthesis
 <div align="center">
@@ -122,16 +149,3 @@ A .lib contains multiple flavours of the same gate. Flavours differ by drive str
 ## Lab Using Yosys and Sky130 PDK
 
 
-#### <ins>**Iverilog**</ins>
-```bash
-$ sudo apt-get 
-$ sudo apt-get install iverilog
-```
-<img width="500" height="507" alt="image" src="https://github.com/user-attachments/assets/f168cc2f-e880-4a99-8838-d3a68cd9760a" />
-
-#### <ins>**gtkwave**</ins>
-```bash
-$ sudo apt-get update
-$ sudo apt install gtkwave
-```
-<img width="500" height="120" alt="image" src="https://github.com/user-attachments/assets/6b95cca0-fdb1-4407-b8f6-1b6ad72bb8ce" />
