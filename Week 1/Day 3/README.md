@@ -75,12 +75,14 @@ Command for optimization
 ### Optimizations for opt_check.v
 <div align="center">
 	<img width="900" height="90" alt="image" src="https://github.com/user-attachments/assets/47d91e2b-9ab8-420a-bc62-8f5ba5bc877e" />
+	<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/a1d9fd59-69d3-4055-9c93-18f85abb54bc" />
 	<img width="939" height="500" alt="image" src="https://github.com/user-attachments/assets/31bc73cd-f881-4af1-bcb3-c15dceb6d3dd" />
 </div>
 
 ## Optimizations for opt_check2.v
 <div align="center">
-	<img width="900" height="91" alt="image" src="https://github.com/user-attachments/assets/98194100-c254-41ab-8fff-e887a84c4e41" />
+	<img width="900" height="90" alt="image" src="https://github.com/user-attachments/assets/98194100-c254-41ab-8fff-e887a84c4e41" />
+	<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/8c6b5ca2-b483-4985-86ca-f261775e5bdc" />
 	<img width="939" height="515" alt="image" src="https://github.com/user-attachments/assets/ad93fe26-3cc6-49b1-9db9-b56176f514e1" />
 </div>
 
