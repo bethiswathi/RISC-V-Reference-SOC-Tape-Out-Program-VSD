@@ -45,6 +45,21 @@ If-else statemnts are used for conditional execution
   <img width="940" height="326" alt="image" src="https://github.com/user-attachments/assets/58279f1b-4dbc-46d1-9ab3-abaf85d929a7" />
 </div>
 
+## bad_case.v
+<div align="center">
+   <img width="723" height="291" alt="image" src="https://github.com/user-attachments/assets/396a9e8c-7f89-4e6b-b350-1476b63d6c78" />
+   <img width="940" height="479" alt="image" src="https://github.com/user-attachments/assets/ace00ead-e020-4d0b-b4ac-104c07660d1c" />
+</div>
+
+## partial_case_assign.v
+<div align="center">
+   <img width="761" height="322" alt="image" src="https://github.com/user-attachments/assets/4f7a2f1e-47a2-4d2d-909f-0ca7565b0b5c" />
+   <img width="469" height="516" alt="image" src="https://github.com/user-attachments/assets/b8fcadc1-4d03-491f-ba6f-a9e5a23cf313" />
+   <img width="573" height="188" alt="image" src="https://github.com/user-attachments/assets/66c6b7e1-2a77-46f6-8a82-ae97205563ab" />
+   <img width="940" height="384" alt="image" src="https://github.com/user-attachments/assets/2e1244d5-dacc-4d00-bc25-1e9dbda968bb" />
+</div>
+
+ 
 
    
 ## for loop and for generate
