@@ -49,7 +49,7 @@ An example of **sequential constant propagation** is shown below.
 Consider a DFF with asynchronous reset with D as grounded. The output Q=0 when reset pin is there or when D is applied (since D is grounded Q=0). Q is connected to NAND gate where other input is A. The output of the NAND gate Y is always 1 irrespective of any value of A. If we consider a DFF with asynhronous set then Q=1 and when input D is applied Q=0. Which implies Q is dependent on set input and also on clock edge.
  
 <div align="center">
-	<img width="940" height="523" alt="image" src="https://github.com/user-attachments/assets/e7e0d754-46de-4c08-8393-efcd3d1e8746" />
+	<img width="740" height="500" alt="image" src="https://github.com/user-attachments/assets/e7e0d754-46de-4c08-8393-efcd3d1e8746" />
 </div>
 
 An example of **Retiming** is shown below.
@@ -62,7 +62,7 @@ An example of **Retiming** is shown below.
     - critical path reduced to 4ns ---> Max frequency=250MHZ
 
 <div align="center">
-	<img width="940" height="513" alt="image" src="https://github.com/user-attachments/assets/1e2f9798-ef3e-47e8-a59c-b6dc6b49687f" />
+	<img width="740" height="500" alt="image" src="https://github.com/user-attachments/assets/1e2f9798-ef3e-47e8-a59c-b6dc6b49687f" />
 </div>
 
 ## Lab for Combinational Logic Optimizations
@@ -141,14 +141,14 @@ Command for optimization
 ## Sequential Optimizations for Unused Outputs
 ## Optimization of counter_opt.v
 <div align="center">
-	<img width="940" height="215" alt="image" src="https://github.com/user-attachments/assets/1ab44278-432f-4ea4-874c-8691fefe8379" />
-    <img width="601" height="552" alt="image" src="https://github.com/user-attachments/assets/17e16d8c-b5b3-4174-ab0d-e4e8d2f661b4" />
+	<img width="740" height="200" alt="image" src="https://github.com/user-attachments/assets/1ab44278-432f-4ea4-874c-8691fefe8379" />
+    <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/17e16d8c-b5b3-4174-ab0d-e4e8d2f661b4" />
     <img width="1046" height="365" alt="image" src="https://github.com/user-attachments/assets/5f2f718e-c9eb-41d4-9dd5-6b19b2364864" />
 </div>
 
 ## Optimization of counter_opt2.v
 <div align="center">
-     <img width="777" height="548" alt="image" src="https://github.com/user-attachments/assets/16fb1266-4c35-468b-aed4-73e1584e777c" />
+     <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/16fb1266-4c35-468b-aed4-73e1584e777c" />
      <img width="940" height="330" alt="image" src="https://github.com/user-attachments/assets/020f0d5c-fd33-4832-9bb6-91eec54b67c1" />
 </div>
 
