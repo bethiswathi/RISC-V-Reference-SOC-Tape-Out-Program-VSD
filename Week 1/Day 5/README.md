@@ -38,7 +38,13 @@ If-else statemnts are used for conditional execution
 
 ## comp_case.v
 <div align="center">
-   
+  <img width="813" height="199" alt="image" src="https://github.com/user-attachments/assets/757d25da-ff3b-4022-bcdf-5c8990d6d0a8" />
+  <img width="887" height="473" alt="image" src="https://github.com/user-attachments/assets/87fc7738-cd53-49d2-90f3-1e64b2bc9c54" />
+  <img width="519" height="481" alt="image" src="https://github.com/user-attachments/assets/24a8c2ff-0a64-4a21-8c7c-1777ced4f56e" />
+  <img width="776" height="225" alt="image" src="https://github.com/user-attachments/assets/3948d293-4efe-4917-a73b-b7517ae72408" />
+  <img width="940" height="326" alt="image" src="https://github.com/user-attachments/assets/58279f1b-4dbc-46d1-9ab3-abaf85d929a7" />
+</div>
+
 
    
 ## for loop and for generate
