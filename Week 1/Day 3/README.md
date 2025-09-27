@@ -68,14 +68,13 @@ An example of **Retiming** is shown below.
 ## Lab for Combinational Logic Optimizations
 Command for optimization
 
-<div align="center">
-	
-	<img width="940" height="513" alt="image" src="https://github.com/user-attachments/assets/1e2f9798-ef3e-47e8-a59c-b6dc6b49687f" />
+<div align="left">
+	<img width="200" height="40" alt="image" src="https://github.com/user-attachments/assets/cfc0d731-7b29-4702-9cf6-3da4ddf5f43e" />
 </div>
 
 ### Optimizations for opt_check.v
 <div align="center">
-	<img width="903" height="91" alt="image" src="https://github.com/user-attachments/assets/47d91e2b-9ab8-420a-bc62-8f5ba5bc877e" />
+	<img width="900" height="90" alt="image" src="https://github.com/user-attachments/assets/47d91e2b-9ab8-420a-bc62-8f5ba5bc877e" />
 	<img width="939" height="500" alt="image" src="https://github.com/user-attachments/assets/31bc73cd-f881-4af1-bcb3-c15dceb6d3dd" />
 </div>
 
@@ -96,6 +95,8 @@ Command for optimization
 	<img width="867" height="89" alt="image" src="https://github.com/user-attachments/assets/004e1301-9a2c-4298-872f-9f9ea0e1e43f" />
 	<img width="940" height="519" alt="image" src="https://github.com/user-attachments/assets/8a5e1caa-6203-4117-9820-cca452d83e4d" />
 </div>
+
+
 
 
 <div align="center">
