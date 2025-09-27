@@ -10,7 +10,7 @@ In digital design **optimization** refers to the process of improving a design t
 - Meet Timing Requirements: Ensures all signals arrive at flip-flops within the clock period 
 - Enhance Manufacturability: Optimized designs are easier to route and more feasible.
   
-## Differences between Combinationational and Sequential optimizations
+## Differences between Combinational and Sequential optimizations
 | Aspect | Combinational Optimization | Sequential optimization |
 |--------|----------------------------|-------------------------|
 |Elements Targetted| Logic gates (AND,OR etc)|Flip-flops, Latches and their interconnections|
@@ -28,7 +28,7 @@ In digital design **optimization** refers to the process of improving a design t
 <div align="center">
    <img width="940" height="454" alt="image" src="https://github.com/user-attachments/assets/7c311537-8285-46bc-919c-21d588a1c15f" />
 </div>
-
+In the above screenshot we can observe a NAND and OR gate. The output Y=(AB+C)'. If A=0, then the output=c.
 ## Sequential Optimizations
 
 
