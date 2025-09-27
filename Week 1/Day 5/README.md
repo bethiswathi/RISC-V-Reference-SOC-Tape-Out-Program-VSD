@@ -59,13 +59,34 @@ If-else statemnts are used for conditional execution
    <img width="940" height="384" alt="image" src="https://github.com/user-attachments/assets/2e1244d5-dacc-4d00-bc25-1e9dbda968bb" />
 </div>
 
- 
+## Looping Constructs
+There are 2 looping constructs
+- for loop
+- for generate
 
-   
-## for loop and for generate
+## for loop
+- Used inside procedural blocks (always, initial)
+- Purpose: repeated operations on arrays, buses or signals
+- Simulation: executes sequentially
+- Used for evaluating expressions
+- Not for instantiating hardware
+
+## for generate
+- Used outside procedural blocks
+- Purpose: replicate hardware instances (modules, wires, regs, logic)
+- Instantiating a hardware multiple times
+    
+## Lab for mux_grnerate.v
+<div align="center">
+   <img width="665" height="290" alt="image" src="https://github.com/user-attachments/assets/87dbdfbb-ccaa-4ff6-a5ac-64942b5e642e" />
+   <img width="896" height="477" alt="image" src="https://github.com/user-attachments/assets/65c3d012-23ee-4ba7-9dd6-2b83000854ec" />
+</div>
+
+## Lab for demux_case.v
+<div align="center">
+    <img width="638" height="355" alt="image" src="https://github.com/user-attachments/assets/bb6e27b1-4f89-402a-be0b-189659fcdfb8" />
+    <img width="868" height="479" alt="image" src="https://github.com/user-attachments/assets/7265558b-0e0a-4ce8-a579-42ea91fbec98" />
+</div>
 
 
-
-
-#### <ins>**gtkwave**</ins>
 
