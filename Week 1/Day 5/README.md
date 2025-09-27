@@ -12,51 +12,52 @@ If-else statemnts are used for conditional execution
 ## Lab on In-complete if
 ## incomp_if.v
 <div align="center">
-  <img width="800" height="200" alt="image" src="https://github.com/user-attachments/assets/8a2eec3f-b74d-4ede-ab2e-0479c75f6f8e" />
-  <img width="800" height="106" alt="image" src="https://github.com/user-attachments/assets/869a9e8e-085c-484d-93bc-14608a869844" />
-  <img width="940" height="390" alt="image" src="https://github.com/user-attachments/assets/4f0bfbf3-7f37-45d8-b851-846020899388" />
-  <img width="940" height="144" alt="image" src="https://github.com/user-attachments/assets/03d38f66-602f-428c-8352-a3ab3dd67086" />
-  <img width="939" height="513" alt="image" src="https://github.com/user-attachments/assets/81c3efa9-3fd1-421c-bba6-62e7a439db85" />
+  <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/8a2eec3f-b74d-4ede-ab2e-0479c75f6f8e" />
+  <img width="700" height="106" alt="image" src="https://github.com/user-attachments/assets/869a9e8e-085c-484d-93bc-14608a869844" />
+  <img width="700" height="390" alt="image" src="https://github.com/user-attachments/assets/4f0bfbf3-7f37-45d8-b851-846020899388" />
+  <img width="700" height="144" alt="image" src="https://github.com/user-attachments/assets/03d38f66-602f-428c-8352-a3ab3dd67086" />
+  <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/81c3efa9-3fd1-421c-bba6-62e7a439db85" />
 </div>
 
 ## incomp_if2.v
 <div align="center">
-  <img width="940" height="254" alt="image" src="https://github.com/user-attachments/assets/2693d20b-ff0f-46ba-8549-12200ad2dcf9" />
-  <img width="886" height="144" alt="image" src="https://github.com/user-attachments/assets/75228abe-addc-42d7-8624-f22f6db8589c" />
-  <img width="940" height="416" alt="image" src="https://github.com/user-attachments/assets/e897c2c9-013c-41e6-8e61-f785cbfe0414" />
-  <img width="940" height="509" alt="image" src="https://github.com/user-attachments/assets/7e00c2dd-37ac-466b-8028-89c7f87ecfdd" />
+  <img width="700" height="254" alt="image" src="https://github.com/user-attachments/assets/2693d20b-ff0f-46ba-8549-12200ad2dcf9" />
+  <img width="700" height="90" alt="image" src="https://github.com/user-attachments/assets/75228abe-addc-42d7-8624-f22f6db8589c" />
+  <img width="700" height="416" alt="image" src="https://github.com/user-attachments/assets/e897c2c9-013c-41e6-8e61-f785cbfe0414" />
+  <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/7e00c2dd-37ac-466b-8028-89c7f87ecfdd" />
 </div>
 
 ## incomp_case.v
 <div align="center">
-  <img width="909" height="225" alt="image" src="https://github.com/user-attachments/assets/ad26946f-8e93-4772-9776-2fa844c1a5c0" />
-  <img width="750" height="117" alt="image" src="https://github.com/user-attachments/assets/9607f7f6-cd3d-40b9-aac5-ece54689264c" />
-  <img width="891" height="188" alt="image" src="https://github.com/user-attachments/assets/b115a3ed-81f5-4f43-a2ff-de72a23dfd4c" />
-  <img width="549" height="604" alt="image" src="https://github.com/user-attachments/assets/cd58f56b-3eef-4e98-aa10-1c2192e4b2ea" />
-  <img width="940" height="285" alt="image" src="https://github.com/user-attachments/assets/79c89807-c168-4ca1-823c-3d034848ee0b" />
+  <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/ad26946f-8e93-4772-9776-2fa844c1a5c0" />
+  <img width="700" height="90" alt="image" src="https://github.com/user-attachments/assets/9607f7f6-cd3d-40b9-aac5-ece54689264c" />
+   <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/5be62017-4230-4b90-a11b-79c030914198" />
+  <img width="700" height="188" alt="image" src="https://github.com/user-attachments/assets/b115a3ed-81f5-4f43-a2ff-de72a23dfd4c" />
+  <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/cd58f56b-3eef-4e98-aa10-1c2192e4b2ea" />
+  <img width="700" height="285" alt="image" src="https://github.com/user-attachments/assets/79c89807-c168-4ca1-823c-3d034848ee0b" />
 </div>
 
 ## comp_case.v
 <div align="center">
-  <img width="813" height="199" alt="image" src="https://github.com/user-attachments/assets/757d25da-ff3b-4022-bcdf-5c8990d6d0a8" />
-  <img width="887" height="473" alt="image" src="https://github.com/user-attachments/assets/87fc7738-cd53-49d2-90f3-1e64b2bc9c54" />
-  <img width="519" height="481" alt="image" src="https://github.com/user-attachments/assets/24a8c2ff-0a64-4a21-8c7c-1777ced4f56e" />
-  <img width="776" height="225" alt="image" src="https://github.com/user-attachments/assets/3948d293-4efe-4917-a73b-b7517ae72408" />
-  <img width="940" height="326" alt="image" src="https://github.com/user-attachments/assets/58279f1b-4dbc-46d1-9ab3-abaf85d929a7" />
+  <img width="700" height="199" alt="image" src="https://github.com/user-attachments/assets/757d25da-ff3b-4022-bcdf-5c8990d6d0a8" />
+  <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/87fc7738-cd53-49d2-90f3-1e64b2bc9c54" />
+  <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/24a8c2ff-0a64-4a21-8c7c-1777ced4f56e" />
+  <img width="500" height="180" alt="image" src="https://github.com/user-attachments/assets/3948d293-4efe-4917-a73b-b7517ae72408" />
+  <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/58279f1b-4dbc-46d1-9ab3-abaf85d929a7" />
 </div>
 
 ## bad_case.v
 <div align="center">
-   <img width="723" height="291" alt="image" src="https://github.com/user-attachments/assets/396a9e8c-7f89-4e6b-b350-1476b63d6c78" />
-   <img width="940" height="479" alt="image" src="https://github.com/user-attachments/assets/ace00ead-e020-4d0b-b4ac-104c07660d1c" />
+   <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/396a9e8c-7f89-4e6b-b350-1476b63d6c78" />
+   <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/ace00ead-e020-4d0b-b4ac-104c07660d1c" />
 </div>
 
 ## partial_case_assign.v
 <div align="center">
-   <img width="761" height="322" alt="image" src="https://github.com/user-attachments/assets/4f7a2f1e-47a2-4d2d-909f-0ca7565b0b5c" />
-   <img width="469" height="516" alt="image" src="https://github.com/user-attachments/assets/b8fcadc1-4d03-491f-ba6f-a9e5a23cf313" />
-   <img width="573" height="188" alt="image" src="https://github.com/user-attachments/assets/66c6b7e1-2a77-46f6-8a82-ae97205563ab" />
-   <img width="940" height="384" alt="image" src="https://github.com/user-attachments/assets/2e1244d5-dacc-4d00-bc25-1e9dbda968bb" />
+   <img width="700" height="322" alt="image" src="https://github.com/user-attachments/assets/4f7a2f1e-47a2-4d2d-909f-0ca7565b0b5c" />
+   <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/b8fcadc1-4d03-491f-ba6f-a9e5a23cf313" />
+   <img width="500" height="188" alt="image" src="https://github.com/user-attachments/assets/66c6b7e1-2a77-46f6-8a82-ae97205563ab" />
+   <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/2e1244d5-dacc-4d00-bc25-1e9dbda968bb" />
 </div>
 
 ## Looping Constructs
