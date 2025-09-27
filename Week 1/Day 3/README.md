@@ -36,7 +36,28 @@ In the above screenshot we can observe a NAND and OR gate. The output Y=(AB+C)'.
 	<img width="940" height="422" alt="image" src="https://github.com/user-attachments/assets/0dbec27f-b924-46cb-93a6-0d448b0acf74" />
 </div>
 
-## Sequential Optimizations
+## Sequential Logic Optimizations
+The techniques used are
+- Basic
+   - Sequential constant propagation
+- Advanced (not covered as part of lab)
+   - state optimization
+   - Retiming
+   - Sequntial Logic cloning (Floorplan aware synthesis)
+
+An example of **sequential constant propagation** is shown below.
+Consider a DFF with asynchronous reset with D as grounded. The output Q=0 when reset pin is there or when D is applied (since D is grounded Q=0). Q is connected to NAND gate where other input is A. The output of the NAND gate Y is always 1 irrespective of any value of A. If we consider a DFF with asynhronous set then Q=1 and when input D is applied Q=0. Which implies Q is dependent on set input and also on clock edge.
+ 
+<div align="center">
+	<img width="940" height="523" alt="image" src="https://github.com/user-attachments/assets/e7e0d754-46de-4c08-8393-efcd3d1e8746" />
+</div>
+
+ An example of **Retiming** is shown below.
+ 
+<div align="center">
+	<img width="940" height="513" alt="image" src="https://github.com/user-attachments/assets/1e2f9798-ef3e-47e8-a59c-b6dc6b49687f" />
+
+</div>
 
 
 ## Sequential Optimizations for Unused Outputs
