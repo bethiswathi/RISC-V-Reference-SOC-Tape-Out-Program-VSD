@@ -30,7 +30,7 @@ Hierachical Synthesis preserves module boundaries, enabling easier debugging, re
  
 <div align="center">
   <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/805a56d3-6786-454a-b025-4ba84b907e34" />
-  <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/8a92a66f-ccf2-4a83-af2b-adfd11586328" />
+  <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/8a92a66f-ccf2-4a83-af2b-adfd11586328" />
 </div>
 Above is the example of Hierachical synthesis of multiple_modules.v. The following is the report after synthesizing multiple_modules.v. From the screen shot we can observe that module1 has 1 AND gate whereas module2 has 1 OR gate. 
 
@@ -83,7 +83,7 @@ Sub-module level synthesis is necessary because
 - Parallel Processing: Different sub-modules can be synthesized concurrently, improving efficiency.
         
 <div align="center">
-  <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/ea91b2c9-ebfb-4c87-a21c-94e7dd3439df" />
+  <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/ea91b2c9-ebfb-4c87-a21c-94e7dd3439df" />
   <img width="600" height="150" alt="image" src="https://github.com/user-attachments/assets/65ffd506-bc83-44ea-a6f4-ee12c9a570b2" />
   <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/b847dc62-07f1-47df-a39e-77cffc3b445e" />
   <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/f8339686-55d1-4fce-92c1-9ca013fb92cb" />
