@@ -65,47 +65,42 @@ An example of **Retiming** is shown below.
 	<img width="940" height="513" alt="image" src="https://github.com/user-attachments/assets/1e2f9798-ef3e-47e8-a59c-b6dc6b49687f" />
 </div>
 
-
-## Sequential Optimizations for Unused Outputs
-
-
-### <ins>**Simulator**</ins>
-Simulator is a software tool used for simulating the design to verify the correctness.
-iverilog is the tool used here. Simulator looks for the changes in the values of the input.
-The output of the simulator remains same if there is no change in the input values.
-
-### <ins>**Design**</ins>
-Design is the actual verilog code that you want to implement in hardware.
-
-### <ins>**TestBench**</ins>
-Testbench is like a environment or setup that applies test vectors to the design to check if the outputs are correct  
+## Lab for Combinational Logic Optimizations
+Command for optimization
 
 <div align="center">
-  <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/8e3b10b0-b200-4537-88ea-540e064f83fb" />
+	
+	<img width="940" height="513" alt="image" src="https://github.com/user-attachments/assets/1e2f9798-ef3e-47e8-a59c-b6dc6b49687f" />
 </div>
 
-## Iverilog based simulation flow
+### Optimizations for opt_check.v
 <div align="center">
-  <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/5ab70a47-df6b-448d-a163-16297bc3e9ae" />
+	<img width="903" height="91" alt="image" src="https://github.com/user-attachments/assets/47d91e2b-9ab8-420a-bc62-8f5ba5bc877e" />
+	<img width="939" height="500" alt="image" src="https://github.com/user-attachments/assets/31bc73cd-f881-4af1-bcb3-c15dceb6d3dd" />
 </div>
-Iverilog is a open-source verilog simulation tool.The design (HDL code) and testbench are compiled and simulated using iverilog. The simulation generates VCD (Value Change Dump) file which records all the signal changes over simkulation time. The VCD file is loaded into GTKWave, a tool to visulaize signal waveforms.
 
-## Lab Using iverilog and gtkwave
-  
+## Optimizations for opt_check2.v
+<div align="center">
+	<img width="900" height="91" alt="image" src="https://github.com/user-attachments/assets/98194100-c254-41ab-8fff-e887a84c4e41" />
+	<img width="939" height="515" alt="image" src="https://github.com/user-attachments/assets/ad93fe26-3cc6-49b1-9db9-b56176f514e1" />
+</div>
+
+## Optimizations for opt_check3.v
+<div align="center">
+	<img width="836" height="102" alt="image" src="https://github.com/user-attachments/assets/8f2bb84d-44e9-4d19-be4d-b1c65e8587ea" />
+	<img width="927" height="538" alt="image" src="https://github.com/user-attachments/assets/5ee4ec93-b72d-46bb-9106-9d4cb3e883d0" />
+</div>
+
+## Optimizations for opt_check4.v
+<div align="center">
+	<img width="867" height="89" alt="image" src="https://github.com/user-attachments/assets/004e1301-9a2c-4298-872f-9f9ea0e1e43f" />
+	<img width="940" height="519" alt="image" src="https://github.com/user-attachments/assets/8a5e1caa-6203-4117-9820-cca452d83e4d" />
+</div>
 
 
-
-## Verilog Code Analysis
-
-module good_mux (input i0 , input i1 , input sel , output reg y);
-always @ (*)
-begin
-	if(sel)
-		y <= i1;
-	else 
-		y <= i0;
-end
-endmodule
+<div align="center">
+    <img width="500" height="260" alt="image" src="https://github.com/user-attachments/assets/1f0d8586-5cb0-4a78-ba75-059aebde8979" />
+</div>
 
 ## Introduction to Yosys and Logic Synthesis
 <div align="center">
