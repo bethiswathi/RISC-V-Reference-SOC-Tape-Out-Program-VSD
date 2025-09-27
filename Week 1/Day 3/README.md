@@ -1,7 +1,34 @@
 # Combinational and Sequential Optimizations
 
 ## Introduction to Optimizations
-## Combinational Optimizations
+In digital design **optimization** refers to the process of improving a design to meet specific objectives, such as performance, area, power or timing without changing its funcitonality. Optimization ensures the design works efficiently on hardware satisfying the constraints.
+
+## Why optimization is important
+- Reduce Area: Minimizes silicon usage and cost by reducing logic gates and registers.
+- Improve Performance: Reduce critical path delay, allowing higher clock frequencies
+- Save Power: Reduces switching activity, leaakage and dynamic power consumption
+- Meet Timing Requirements: Ensures all signals arrive at flip-flops within the clock period 
+- Enhance Manufacturability: Optimized designs are easier to route and more feasible.
+  
+## Differences between Combinationational and Sequential optimizations
+| Aspect | Combinational Optimization | Sequential optimization |
+|--------|----------------------------|-------------------------|
+|Elements Targetted| Logic gates (AND,OR etc)|Flip-flops, Latches and their interconnections|
+|Main Goal| Reduce logic depth, area, delay|Improve timing, reduce registers, power savings|
+  
+## Combinational Logic Optimizations
+- Squeezing the logic to get the most optimized design
+    - Area and power savings
+- Constant propogation
+    - Direct optimization
+- Boolean Logic optimization
+    - K-map
+    - Quine McKluskey
+
+<div align="center">
+   <img width="940" height="454" alt="image" src="https://github.com/user-attachments/assets/7c311537-8285-46bc-919c-21d588a1c15f" />
+</div>
+
 ## Sequential Optimizations
 
 
