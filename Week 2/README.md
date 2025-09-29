@@ -54,10 +54,22 @@ Types of SoC based on architecture and applications
 - **Application-Specific SoC (ASIC SoC)**: Designed for specific high performance tasks graphics, AI or communication. Ex:- Qualcomm, Snapdragon
 - **General-Purpose SoC**: Flexible SoC capable of handling various applications typically used in laptops, tablets or servers. Ex:- Apple M-series, AMD embedded SoC
 
+## Introduction to BabySoC
+**BabySoC** is a simplified, educational **System-on-Chip (SoC)** platform designed to help students and beginners to understand the basic structure and functionality of an SoC. It's not meant for commercial use but is ideal for learning and experimentation.
 
+### <ins>**Key Features**</ins>
+- **Minimalistic Design**: Focuses on core components like a small CPU, memory and basic I/O interfaces
+- **Educational Use**: Help learners explore how a processor interacts with peripherals, memory and buses
+- **Customization**: Can be modified or extended to include more componentssuch as UART, timers or GPIO
+- **Simulation-Friendly**: Often used with hardware description languages (HDLs) like verilog or VHDL in FPGA or simulation environments.
 
+## Why BabySoC?
+BabySoc provides a hands-on way to
+- Understand hardware design principles
+- Learn how SoCs integrate processing, memory and I/O
+- Practice HDL coding and SoC verification
 
-
+It serves as a stepping stone to more complex SoC designs by breaking down concepts into manageable parts. 
 
 
 
