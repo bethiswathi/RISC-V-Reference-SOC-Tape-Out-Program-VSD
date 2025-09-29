@@ -20,8 +20,35 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines key computer c
 - **Power Management**: Regulates and optimizes power usage
 - **Special Features**: May include Wi-Fi, Bluetooth and security modules depending omn SoC's purpose.
 
+### <ins>**Advantages of SoC**</ins>
+- **Compact Size**: Enables smaller devices by integrating all components on one chip
+- **Low Power Consumption**: Efficient design conserves energy, ideal for mobile and IOT
+- **High Performance**: Faster internal communication boosts speed
+- **Cost Efficiency**: Fewer parts reduce manufaturing and assembly costs
+- **Reliability**: Fewer connections mean lower risk of failure
+
+  
 
 
-### <ins>**TestBench**</ins>
-Testbench is like a environment or setup that applies test vectors to the design to check if the outputs are correct  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
