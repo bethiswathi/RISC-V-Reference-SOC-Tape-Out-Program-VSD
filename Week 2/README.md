@@ -57,13 +57,14 @@ Types of SoC based on architecture and applications
 ## Introduction to BabySoC
 **BabySoC** is a simplified, educational **System-on-Chip (SoC)** platform designed to help students and beginners to understand the basic structure and functionality of an SoC. It's not meant for commercial use but is ideal for learning and experimentation.
 
-### <ins>**Key Features**</ins>
-- **Minimalistic Design**: Focuses on core components like a small CPU, memory and basic I/O interfaces
-- **Educational Use**: Help learners explore how a processor interacts with peripherals, memory and buses
-- **Customization**: Can be modified or extended to include more componentssuch as UART, timers or GPIO
-- **Simulation-Friendly**: Often used with hardware description languages (HDLs) like verilog or VHDL in FPGA or simulation environments.
+## Why BabySoC is ideal for Learning?
+- **Simplified design** with only core components
+- **Easy to understand** for beginners
+- Supports **hands-on-learning** with HDLs and FPGA
+- **Customizable** for gradual skill development
+- **Low resource needs** accessible for education
+- Provides a **safe, controlled environment** for experimentation 
 
-## Why BabySoC?
 BabySoc provides a hands-on way to
 - Understand hardware design principles
 - Learn how SoCs integrate processing, memory and I/O
