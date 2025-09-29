@@ -34,8 +34,11 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines key computer c
 - **Consumer Electronics**: Found in Smart-Tvs, set-up boxes
 - **Embedded Systems**: Used in routers, drones and industrial controllers
 
+### <ins>**Examples of SoC's**</ins>
+- **Apple A17 Pro (iphone)**: Combines CPU, GPU, Neural Engine, ISP and modem
+- **Qualcomm Snapdragon 8 Gen 3**: Includes CPU, GPU, AI engine, modem,connectivity features 
+- **Rasberry Pi RP2040**: Dual Core Arm Cortex-MO + CPU with built-in peripherals for embedded applications 
 
-  
 
 
 
