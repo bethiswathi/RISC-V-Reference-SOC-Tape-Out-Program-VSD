@@ -38,9 +38,23 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines key computer c
 - **Qualcomm Snapdragon**: Found in many android phones
 - **Samsung Exynos**: Used in samsung devices
 
+### <ins>**Challenges with SoC**</ins>
+- **Complex Design**: Difficult to integrate many functions on one chip and requires advanced design skills
+- **No Upgradability**: Individual parts can't be replaced or upgraded once an SoC is designed
+- **Heat Issues**: Integrating many components in small area can cause overheating
+- **High Initial Costs**: Expensive to design and manufacture
+- **Hard to Debug**: Troubleshooting is more complex
+- **Security Risks**: One flaw can impact the entire system
+
+<img width="803" height="400" alt="image" src="https://github.com/user-attachments/assets/e34a5321-98d2-4a8e-acf1-aaa1a497f372" />
+
+### <ins>**Types of SoC**</ins>
+Types of SoC based on architecture and applications
+- **Microcontroller-Based SoC (MCU SoC)**: Combines CPU, memory and basic peripherals for low-power embedded applications, ideal for simple tasks in IOT, appliances and cars. Ex:-STM32, TI MSP430
+- **Application-Specific SoC (ASIC SoC)**: Designed for specific high performance tasks graphics, AI or communication. Ex:- Qualcomm, Snapdragon
+- **General-Purpose SoC**: Flexible SoC capable of handling various applications typically used in laptops, tablets or servers. Ex:- Apple M-series, AMD embedded SoC
 
 
-  
 
 
 
