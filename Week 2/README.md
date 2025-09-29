@@ -81,7 +81,8 @@ It serves as a stepping stone to more complex SoC designs by breaking down conce
 
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/2a413c49-0db0-4491-ad68-894fade2c950" />
 
-## PLL
+## Introduction to Functional Modelling
+**Functionl Modelling** is an essential early step in SoC design  
 
 
 
