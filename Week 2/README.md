@@ -75,9 +75,13 @@ BabySoc provides a hands-on way to
 It serves as a stepping stone to more complex SoC designs by breaking down concepts into manageable parts. 
 
 ## Components of BabySoc
-- Initialization and Clock Generation using **PLL**:  BabySoC activates the **PLL** after an initial input signal. The **PLL** generates a stable, synchronized clock to coordinate the **RVMYTH processor** and **DAC**.This synchronization ensures **timing accuracy** and **data integrity** across all components.  
-- Data Processing in **RVMYTH**:  Acts as data processor using register r17 to hold the values for output. It updagtes r17 in a loop to create a continuous data stream.
-- Analog signal generation via **DAC**:  The DAC converts these digital values from r17 into an analog signal, saved in a file called OUT. This analog output can be sent to devices like **TVs or phones** to produce **sound or video**, demonstrating real world multimedia interfacing.
+- **Initialization and Clock Generation using PLL**:  BabySoC activates the **PLL** after an initial input signal. The **PLL** generates a stable, synchronized clock to coordinate the **RVMYTH processor** and **DAC**.This synchronization ensures **timing accuracy** and **data integrity** across all components.  
+- **Data Processing in RVMYTH**:  Acts as data processor using register r17 to hold the values for output. It updagtes r17 in a loop to create a continuous data stream.
+- **Analog signal generation via DAC**:  The DAC converts these digital values from r17 into an analog signal, saved in a file called OUT. This analog output can be sent to devices like **TVs or phones** to produce **sound or video**, demonstrating real world multimedia interfacing.
+
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/2a413c49-0db0-4491-ad68-894fade2c950" />
+
+
 
 
 
