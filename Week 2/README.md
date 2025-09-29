@@ -2,16 +2,25 @@
 
 ## Problem Statement
 This work discusses the different aspects of designing a small, compact and open-source **System-on-Chip** (SoC) based on **RVMYTH** a 
-RISC-V based processor. This SoC integrates a **Phase Locked Loop (PLL)** for clock generation and control and a **10-bit Digital-to-Analog-Converter (DAC)** for communicating with outside world. By converting digital signals into analog, this DAC allows BabySoC to communicate with the devices such as television and mobile phones which accepts the analog inputs and whose output is in the form of audio or video.  
-built with **Sky130 technology**, it serves as a **well-documented educational platform** for learning and experimenting with digital-analog interfacing.  
+RISC-V based processor. This SoC integrates a **Phase Locked Loop (PLL)** for clock generation and control and a **10-bit Digital-to-Analog-Converter (DAC)** for communicating with outside world. By converting digital signals into analog, this DAC allows BabySoC to communicate with the devices such as television and mobile phones which accepts the analog inputs and whose output is in the form of audio or video. Built with **Sky130 technology**, it serves as a **well-documented educational platform** for learning and experimenting with digital-analog interfacing.  
 
-### <ins>**Simulator**</ins>
-Simulator is a software tool used for simulating the design to verify the correctness.
-iverilog is the tool used here. Simulator looks for the changes in the values of the input.
-The output of the simulator remains same if there is no change in the input values.
+## What is SoC
 
-### <ins>**Design**</ins>
-Design is the actual verilog code that you want to implement in hardware.
+### <ins>**Definition**</ins>
+A **System-on-Chip (SoC)** is an integrated circuit that combines key computer components-like the CPU, GPU, memory controller and I/O interfaces into a single compact chip, instead of using seperate chips for each function.
+
+### <ins>**Main Components of an SoC**</ins>
+- **CPU**: Core unit that runs applications, handles calculations and controls the system
+- **GPU**: Manages graphics and parallel processing tasks like gaming, video and animations 
+- **Memory**:
+     - RAM for temporary data while in use
+     - ROM/Flash for permanent storage
+- **I/O Interfaces**: Allows connection to external devices (ex:- USB, camera, headphones)
+- **DSP**: Processes audio and video signals for tasks like noise reduction
+- **Power Management**: Regulates and optimizes power usage
+- **Special Features**: May include Wi-Fi, Bluetooth and security modules depending omn SoC's purpose.
+
+
 
 ### <ins>**TestBench**</ins>
 Testbench is like a environment or setup that applies test vectors to the design to check if the outputs are correct  
