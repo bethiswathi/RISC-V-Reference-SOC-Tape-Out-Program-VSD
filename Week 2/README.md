@@ -48,8 +48,10 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines key computer c
 
 <img width="803" height="400" alt="image" src="https://github.com/user-attachments/assets/e34a5321-98d2-4a8e-acf1-aaa1a497f372" />
 
-### <ins>**Types of SoC**</ins>
-Types of SoC based on architecture and applications
+## SoC Design Flow
+
+## Types of SoC
+Types of SoCs based on architecture and applications
 - **Microcontroller-Based SoC (MCU SoC)**: Combines CPU, memory and basic peripherals for low-power embedded applications, ideal for simple tasks in IOT, appliances and cars. Ex:-STM32, TI MSP430
 - **Application-Specific SoC (ASIC SoC)**: Designed for specific high performance tasks graphics, AI or communication. Ex:- Qualcomm, Snapdragon
 - **General-Purpose SoC**: Flexible SoC capable of handling various applications typically used in laptops, tablets or servers. Ex:- Apple M-series, AMD embedded SoC
@@ -71,6 +73,20 @@ BabySoc provides a hands-on way to
 - Practice HDL coding and SoC verification
 
 It serves as a stepping stone to more complex SoC designs by breaking down concepts into manageable parts. 
+
+## Components of BabySoc
+- Initialization and Clock Generation using **PLL**: Generates high frequency, stable clock signals from a low-frequency input (eg: crystal oscillator). Initialization begins with Power-on-Reset to set the SoC to a known state.The clock generation process includes **reference clock** as input to PLL. PLL locks to the input frequency and multiplies it to the desired level. Clock is distributed to CPU, memory and peripherals. **Clock gating** is used to disable unused clocks and save power. 
+- Data Processing in **RVMYTH**: Acts as data processor using register r17 to hold the values for output. It updagtes r17 in a loop to create a continuous data stream.
+- Analog signal generation via **DAC**: The DAC converts these digital values from r17 into an analog signal, saved in a file called OUT. This analog output can be sent to devices like **TVs or phones** to produce **sound or video**, demonstrating real world multimedia interfacing.
+
+
+
+
+
+
+
+
+
 
 
 
