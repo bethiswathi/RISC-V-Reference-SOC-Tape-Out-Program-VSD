@@ -27,6 +27,14 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines key computer c
 - **Cost Efficiency**: Fewer parts reduce manufaturing and assembly costs
 - **Reliability**: Fewer connections mean lower risk of failure
 
+  ### <ins>**Applications of SoC**</ins>
+- **Mobile Devices**: Smartphones and tablets (Ex:-Snapdragon,Apple A-series)
+- **IOT & Wearables**: smart-watches, home automation-devices
+- **Automotive**: Used in ADAS, infotainment systems
+- **Consumer Electronics**: Found in Smart-Tvs, set-up boxes
+- **Embedded Systems**: Used in routers, drones and industrial controllers
+
+
   
 
 
