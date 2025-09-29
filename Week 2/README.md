@@ -29,15 +29,16 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines key computer c
 
   ### <ins>**Applications of SoC**</ins>
 - **Mobile Devices**: Smartphones and tablets (Ex:-Snapdragon,Apple A-series)
-- **IOT & Wearables**: smart-watches, home automation-devices
-- **Automotive**: Used in ADAS, infotainment systems
+- **IOT & Wearables**: smart-watches, home automation-devices like smart home sensors for monitoring and wireless connectivity
 - **Consumer Electronics**: Found in Smart-Tvs, set-up boxes
-- **Embedded Systems**: Used in routers, drones and industrial controllers
+- **Embedded Systems**: Used in routers, drones, industrial controllers, cars, Tvs and appliances may also use SoC to manage internal funtions
 
 ### <ins>**Examples of SoC's**</ins>
 - **Apple A17 Pro (iphone)**: Combines CPU, GPU, Neural Engine, ISP and modem
 - **Qualcomm Snapdragon 8 Gen 3**: Includes CPU, GPU, AI engine, modem,connectivity features 
-- **Rasberry Pi RP2040**: Dual Core Arm Cortex-MO + CPU with built-in peripherals for embedded applications 
+- **Rasberry Pi RP2040**: Dual-Core Arm Cortex-MO + CPU with built-in peripherals for embedded applications
+
+  
 
 
 
