@@ -82,7 +82,14 @@ It serves as a stepping stone to more complex SoC designs by breaking down conce
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/2a413c49-0db0-4491-ad68-894fade2c950" />
 
 ## Introduction to Functional Modelling
-**Functionl Modelling** is an essential early step in SoC design  
+**Functionl Modelling** is an essential early step in SoC design that takes place **before RTL coding and physical design**. It defines what the system should do, focusing on behavior, not hardware details.
+- Functional modelling plays a critical role before RTL and physical design by
+    - Validating system behavior early
+    - Supporting architecture decisions
+    - Enabling early software development
+    - Reducing development time and risk
+
+
 
 
 
