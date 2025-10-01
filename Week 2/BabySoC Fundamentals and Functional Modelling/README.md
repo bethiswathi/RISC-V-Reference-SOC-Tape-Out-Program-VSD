@@ -89,7 +89,9 @@ It serves as a stepping stone to more complex SoC designs by breaking down conce
 - **Phase Detector**: Compares the input (reference) signal with the feedback signal phase and produces an error signal proportional to phase difference.
 - **Loop Filter**: Filters the error signal to remove high frequency noise. 
 - **VCO**: Generates an output frequency proportional to input control voltage from loop filter.
+-**Frequency Divider**:
 
+  
 ## <ins>**Applications**</ins>
 - Clock generation
 - Ferquency synthesis
