@@ -48,7 +48,6 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines key computer c
 
 <img width="803" height="400" alt="image" src="https://github.com/user-attachments/assets/e34a5321-98d2-4a8e-acf1-aaa1a497f372" />
 
-## SoC Design Flow
 
 ## Types of SoC
 Types of SoCs based on architecture and applications
@@ -80,6 +79,23 @@ It serves as a stepping stone to more complex SoC designs by breaking down conce
 - **Analog signal generation via DAC**:  The DAC converts these digital values from r17 into an analog signal, saved in a file called OUT. This analog output can be sent to devices like **TVs or phones** to produce **sound or video**, demonstrating real world multimedia interfacing.
 
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/2a413c49-0db0-4491-ad68-894fade2c950" />
+
+## Phase Locked Loop (PLL)
+**PLL** is a feedback control system that generates an output signal whose phase is aligned (locked) with a reference input signal. 
+
+<img width="711" height="391" alt="image" src="https://github.com/user-attachments/assets/9b796216-bc10-4496-aa85-e68a7269c968" />
+
+## <ins>**Components of PLL**</ins>
+- **Phase Detector**: Compares the input (reference) signal with the feedback signal phase and produces an error signal proportional to phase difference.
+- **Loop Filter**: Filters the error signal to remove high frequency noise. 
+- **VCO**: Generates an output frequency proportional to input control voltage from loop filter.
+
+## <ins>**Applications**</ins>
+- Clock generation
+- Ferquency synthesis
+- Data Recovery
+- Jitter Reduction
+
 
 ## Introduction to Functional Modelling
 **Functionl Modelling** is an essential early step in SoC design that takes place **before RTL coding and physical design**. It defines what the system should do, focusing on behavior, not hardware details.
