@@ -10,7 +10,6 @@
 - **Icarus Verilog** for compilation
 - **Gtkwave** for viewing waveforms
 
-
 ## Module Descriptions
 ### **1. vsdbabysoc.v (Top-Level SoC Module)**
 https://github.com/manili/VSDBabySoC/
@@ -65,7 +64,12 @@ https://github.com/vsdip/rvmyth_avsddac_interface.git
 - Run pre/post-synthesis simulation
 - Dump waveforms to .vcd files
 
+## Pre-Synthesis Simulation
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/7877f88f-ed31-4897-867c-b526d0c7f3fb" />
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/fe737c60-e0b4-476b-9f8f-f3ce65a01c72" />
 
+
+## Post-Synthesis Simulation
 
 
 
