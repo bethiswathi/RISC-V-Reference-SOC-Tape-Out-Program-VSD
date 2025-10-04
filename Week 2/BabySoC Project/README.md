@@ -64,15 +64,28 @@ https://github.com/vsdip/rvmyth_avsddac_interface.git
 - Run pre/post-synthesis simulation
 - Dump waveforms to .vcd files
 
-## Pre-Synthesis Simulation
+## Pre-Synthesis Simulation of vsdbabysoc
 Pre-synthesis simulation of BabySoC involves verifying the **Rtl design behavior** before synthesis. It checks the functional correctness using testbenches, ignoring gate level details and helps catch errors early in the design flow.
 
 <img width="700" height="402" alt="image" src="https://github.com/user-attachments/assets/ae712481-0e29-4728-81cb-687f7b053914" />
+<br> <br>
 
 <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/967bde09-8398-416e-a239-e4a32c62d464" />
+<br>
+
+- The **gtkwave** simulation of **vsdbabysoc** shows
+   - clk: PLL generated clock driving the RVMYTH core
+   - reset: External reset for the core
+   - RV_DAC[9:0] : 10-bit digital output from RVMYTH to DAC
+   - out (digital): digital representation of DAC output
+   - out(analog): real-valued DAC output showing smooth analog waveform.
+
+**Explanation**: The RVMYTH core continuously sends 10-bit digital values to DAC which converts them into a smooth analog signal.
+<br> <br>
 
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/dca20f2f-2d04-496b-bf73-230b5ba98952" />
 
+ 
 
 
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/777877cc-44ac-475f-b79e-b08220c38869" />
