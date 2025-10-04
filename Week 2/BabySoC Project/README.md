@@ -87,6 +87,7 @@ The commands used are<br>
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/dca20f2f-2d04-496b-bf73-230b5ba98952" />
 
  ## Post-Synthesis Simulation
+ Post-synthesis checks the synthesized design'sfunctionality and produces a VCD file for viewing the waveform in gtkwave.<br><br>
  <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/d0995cf6-09d7-4a5b-99e2-f85a3d26d45b" /> <br><br>
  <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/846249a2-264a-4b14-a6e8-1270993efaaa" />
 **Explanation**:
