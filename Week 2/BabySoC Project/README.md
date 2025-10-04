@@ -50,5 +50,19 @@ https://github.com/vsdip/rvmyth_avsddac_interface.git
 - Outputs:
    - OUT: analog output signal
    
+## Testbench (testbench.v)
+- It is a test module
+- Verifies **vsdbabysoc** functionality
+- Handles **signal initialization, clock generation** and **waveform dumping**
+
+### <ins>**Waveform Output**</ins>
+- pre_synth_sim.vcd (pre-synthesis)
+- post_synth_sim.vcd (post-synthesis)
+
+### <ins>**Simulation Steps**</ins>
+- Initialize the signals
+- Generate clock/reset
+- Run pre/post-synthesis simulation
+- Dump waveforms to .vcd files
 
   
