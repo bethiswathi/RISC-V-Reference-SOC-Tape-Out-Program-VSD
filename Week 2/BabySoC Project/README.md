@@ -13,6 +13,14 @@
 <img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/bcc72b8b-6e8f-41a3-8322-121cfed54a97" />
 
 ## Python Virtual Environment Setup
+### 1.Install Dependencies
+<img width="400" height="75" alt="image" src="https://github.com/user-attachments/assets/09c4741a-3079-4418-b12a-2c626d6cba36" /><br>
+### 2.Create and Activate Virtual Environment
+<img width="300" height="61" alt="image" src="https://github.com/user-attachments/assets/3a06fa86-0c66-4979-a49f-c61bbccad5ca" /><br>
+### 3.Install Sandpiper-saas
+<img width="450" height="60" alt="image" src="https://github.com/user-attachments/assets/2ef3b6ac-cb4d-425d-a424-c0a766eca941" /><br>
+### 4.Convert TL-Verilog to Verilog
+<img width="800" height="46" alt="image" src="https://github.com/user-attachments/assets/480550f4-d856-4ac2-8b3a-b0208fec09d6" /><br>
 
 
 
