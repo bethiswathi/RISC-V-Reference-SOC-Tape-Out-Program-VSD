@@ -65,4 +65,10 @@ https://github.com/vsdip/rvmyth_avsddac_interface.git
 - Run pre/post-synthesis simulation
 - Dump waveforms to .vcd files
 
+
+
+
+
+
+
   
