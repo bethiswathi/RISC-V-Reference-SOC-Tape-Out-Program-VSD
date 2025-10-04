@@ -100,6 +100,7 @@ Pre-synthesis simulation of BabySoC involves verifying the **Rtl design behavior
 
 ## RVMYTH Simulation
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/f6ca9f90-aeeb-471d-8c86-c570a7eb1918" />
+<br>
 
 - clk: It is a continuous square wave.
 - reset: when reset=1, all internal registers in rvmyth are cleared.
