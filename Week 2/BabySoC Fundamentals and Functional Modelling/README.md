@@ -98,6 +98,14 @@ It serves as a stepping stone to more complex SoC designs by breaking down conce
 - Data Recovery
 - Jitter Reduction
 
+## Why off-chip clocks are limited
+Off-Chip clocks are limited because of the following
+- signal integrity issues
+- EMI
+- Power overhead
+- Skew/delay
+- Pin limitations
+
 
 ## Introduction to Functional Modelling
 **Functionl Modelling** is an essential early step in SoC design that takes place **before RTL coding and physical design**. It defines what the system should do, focusing on behavior, not hardware details.
