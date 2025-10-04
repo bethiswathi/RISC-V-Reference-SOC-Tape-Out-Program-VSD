@@ -65,7 +65,7 @@ https://github.com/vsdip/rvmyth_avsddac_interface.git
 - Dump waveforms to .vcd files
 
 ## Pre-Synthesis Simulation
-<img width="700" height="302" alt="image" src="https://github.com/user-attachments/assets/ae712481-0e29-4728-81cb-687f7b053914" />
+<img width="700" height="402" alt="image" src="https://github.com/user-attachments/assets/ae712481-0e29-4728-81cb-687f7b053914" />
 
 <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/967bde09-8398-416e-a239-e4a32c62d464" />
 
