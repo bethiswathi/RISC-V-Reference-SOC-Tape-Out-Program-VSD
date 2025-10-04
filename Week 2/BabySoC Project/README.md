@@ -65,6 +65,8 @@ https://github.com/vsdip/rvmyth_avsddac_interface.git
 - Dump waveforms to .vcd files
 
 ## Pre-Synthesis Simulation
+Pre-synthesis simulation of BabySoC involves verifying the **Rtl design behavior** before synthesis. It checks the functional correctness using testbenches, ignoring gate level details and helps catch errors early in the design flow.
+
 <img width="700" height="402" alt="image" src="https://github.com/user-attachments/assets/ae712481-0e29-4728-81cb-687f7b053914" />
 
 <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/967bde09-8398-416e-a239-e4a32c62d464" />
@@ -90,6 +92,6 @@ https://github.com/vsdip/rvmyth_avsddac_interface.git
 - reset: when reset=1, all internal registers in rvmyth are cleared.
 - out[9:0]: This is a 10-bit output bus typically connected to DAC input or some test output port. After reset goes low we can see small changes in digital value.
 - The wavy green pattern is not analog it's the digital 10-bit value plotted as an analog like trace in gtkwave.
-- 
+
 
   
