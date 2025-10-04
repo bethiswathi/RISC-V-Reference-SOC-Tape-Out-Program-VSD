@@ -6,6 +6,17 @@
 - src/module/   - Contains verilog source files for SoC modules
 - output/       - stores compiled outputs and simulated results
 
+## Environment Setup
+### 1.<ins>**Create project directory**</ins>
+<img width="700" height="50" alt="image" src="https://github.com/user-attachments/assets/c23877e9-49d9-4577-b247-a95c8494fb7e" /><br>
+### 2.<ins>**Clone the Repository**</ins>
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/bcc72b8b-6e8f-41a3-8322-121cfed54a97" />
+
+## Python Virtual Environment Setup
+
+
+
+
 ## Tools Required
 - **Icarus Verilog** for compilation
 - **Gtkwave** for viewing waveforms
@@ -86,7 +97,25 @@ The commands used are<br>
 
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/dca20f2f-2d04-496b-bf73-230b5ba98952" />
 
- ## Post-Synthesis Simulation
+## Synthesis of BabySoC using Yosys
+The following are the commands that are used
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/cefc3123-f0f1-4f4c-929d-9dc6236d335a" /><br><br>
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/ee64c48e-cc98-466e-80c5-79101adf1697" /><br><br>
+<img width="700" height="50" alt="image" src="https://github.com/user-attachments/assets/344caa11-b5db-4002-ba36-a97718e5ec09" /><br><br>
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/8779999b-1532-423c-a449-0eb26778e517" /><br><br>
+<img width="402" height="300" alt="image" src="https://github.com/user-attachments/assets/c6ed313d-f844-4bd0-8aeb-cb751534d6b4" /><br><br>
+<img width="466" height="350" alt="image" src="https://github.com/user-attachments/assets/15071508-c760-4dbd-aef2-048b02d77afc" /><br><br>
+<img width="449" height="300" alt="image" src="https://github.com/user-attachments/assets/5c777b9b-8d0b-4fa5-b74d-ee31f62db16b" /><br><br>
+<img width="418" height="300" alt="image" src="https://github.com/user-attachments/assets/a9191fda-319c-4930-8446-e70c29827f79" /><br><br>
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/023fa2a1-ddeb-4f0d-9057-7ff862a3c18d" /><br><br>
+<img width="700" height="80" alt="image" src="https://github.com/user-attachments/assets/78b004a6-46d4-40a7-9cfd-19093c957b94" /><br>
+<img width="250" height="40" alt="image" src="https://github.com/user-attachments/assets/9d75a277-6dcc-46e9-8066-0272e55410f6" />
+
+
+
+
+
+## Post-Synthesis Simulation
  Post-synthesis checks the synthesized design'sfunctionality and produces a VCD file for viewing the waveform in gtkwave.<br><br>
  <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/d0995cf6-09d7-4a5b-99e2-f85a3d26d45b" /> <br><br>
  <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/846249a2-264a-4b14-a6e8-1270993efaaa" />
