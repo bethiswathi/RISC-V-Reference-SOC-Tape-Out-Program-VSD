@@ -124,6 +124,10 @@ Off-Chip clocks are limited because of the following
   
 <img width="760" height="418" alt="image" src="https://github.com/user-attachments/assets/50fef139-6f86-402e-ad04-afb28c806643" />
 
+### In **VSDBabySoC**:-
+-  A 10-bit DAC converts CPU digital outputs to analog signals
+-  Supports digital-analog interfacing for multimedia output.
+
 ## Introduction to Functional Modelling
 **Functionl Modelling** is an essential early step in SoC design that takes place **before RTL coding and physical design**. It defines what the system should do, focusing on behavior, not hardware details.
 - Functional modelling plays a critical role before RTL and physical design by
