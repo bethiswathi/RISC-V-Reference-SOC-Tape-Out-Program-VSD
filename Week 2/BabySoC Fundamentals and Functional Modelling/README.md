@@ -90,7 +90,6 @@ It serves as a stepping stone to more complex SoC designs by breaking down conce
 - **Loop Filter**: Filters the error signal to remove high frequency noise. 
 - **VCO**: Generates an output frequency proportional to input control voltage from loop filter.
 -**Frequency Divider**:
-
   
 ## <ins>**Applications**</ins>
 - Clock generation
@@ -106,6 +105,24 @@ Off-Chip clocks are limited because of the following
 - Skew/delay
 - Pin limitations
 
+## Digital to Analog Converter (DAC)
+- A DAC is a device that converts **digital signals** (binary numbers) into **analog voltages or currents**. DACs are essential in interfacing digital systems (like processors) with real world analog devices (speakers, sensors etc) 
+- There are 2 types of DACs:
+      - Weighted Resistor DAC
+      - R-2R Ladder DAC
+
+### Weighted Resistor DAC
+- Uses resistors weighted in powers of 2
+- Fast but requires precise resistor values which can be impractical for high resolution
+  
+<img width="717" height="410" alt="image" src="https://github.com/user-attachments/assets/595b18a9-c00a-4ce4-99b2-77d98bd92fd9" />
+
+### R-2R Ladder DAC
+- Uses a reisitor ladder network with only 2 resistor values (R and 2R)
+- Easier to implement than weighted DACs
+- Commonly used in integrated circuits
+  
+<img width="760" height="418" alt="image" src="https://github.com/user-attachments/assets/50fef139-6f86-402e-ad04-afb28c806643" />
 
 ## Introduction to Functional Modelling
 **Functionl Modelling** is an essential early step in SoC design that takes place **before RTL coding and physical design**. It defines what the system should do, focusing on behavior, not hardware details.
