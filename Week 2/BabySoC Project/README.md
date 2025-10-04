@@ -102,6 +102,7 @@ Pre-synthesis simulation of BabySoC involves verifying the **Rtl design behavior
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/f6ca9f90-aeeb-471d-8c86-c570a7eb1918" />
 <br>
 
+**Explanation**:
 - clk: It is a continuous square wave.
 - reset: when reset=1, all internal registers in rvmyth are cleared.
 - out[9:0]: This is a 10-bit output bus typically connected to DAC input or some test output port. After reset goes low we can see small changes in digital value.
