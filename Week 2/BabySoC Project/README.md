@@ -52,7 +52,7 @@ https://github.com/kunalg123/rvmyth/
 https://github.com/lakshmi-sathi/avsdpll_1v8.git
 - This is the top-level module that integrates the rvmyth, PLL and DAC modules.
 - Inputs:
-   - VCO_IN, ENb_CP, ENb_VCO, REF: PLL control/refernce signals
+   - VCO_IN, ENb_CP, ENb_VCO, REF: PLL control/reference signals
 - Outputs:
    - CLK: Stable clock for core and module
 
