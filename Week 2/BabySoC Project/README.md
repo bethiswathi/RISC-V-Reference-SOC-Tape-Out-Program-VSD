@@ -138,9 +138,6 @@ The following are the commands that are used
 - **OUT**: DAC output (simulated in GLS)
 
 
-<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/777877cc-44ac-475f-b79e-b08220c38869" />
-<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/50e4bcfc-93f5-40b2-a0e7-0de4dbfbc42e" />
-
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/0161520c-3fa5-4ba6-91c5-0d94c5788cc3" />
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/6b38d63a-23e1-4527-a916-d9c25d37f59b" />
 
@@ -149,8 +146,7 @@ The following are the commands that are used
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/9aca3407-4663-41dc-bc24-3aeaa5bc43c8" />
 
 ## RVMYTH Simulation
-<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/f6ca9f90-aeeb-471d-8c86-c570a7eb1918" />
-<br>
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/f6ca9f90-aeeb-471d-8c86-c570a7eb1918" /><br>
 
 **Explanation**:
 - clk: It is a continuous square wave.
