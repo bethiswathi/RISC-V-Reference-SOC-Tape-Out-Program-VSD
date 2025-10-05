@@ -22,9 +22,6 @@
 ### 4.Convert TL-Verilog to Verilog
 <img width="800" height="46" alt="image" src="https://github.com/user-attachments/assets/480550f4-d856-4ac2-8b3a-b0208fec09d6" /><br>
 
-
-
-
 ## Tools Required
 - **Icarus Verilog** for compilation
 - **Gtkwave** for viewing waveforms
@@ -103,8 +100,13 @@ The commands used are<br>
 **Explanation**: The RVMYTH core continuously sends 10-bit digital values to DAC which converts them into a smooth analog signal.
 <br> <br>
 
-<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/dca20f2f-2d04-496b-bf73-230b5ba98952" />
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/dca20f2f-2d04-496b-bf73-230b5ba98952" /><br>
+- To observe analog output in gtkwave
+    - Right Click---> Out(signal)---> Data Format--->Analog--->Step
 
+## Conclusion
+The **pre-synthesis simulation** of **VSDBabySoC** was **completed successfully** and design is ready for synthesis
+  
 ## Synthesis of BabySoC using Yosys
 The following are the commands that are used
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/cefc3123-f0f1-4f4c-929d-9dc6236d335a" /><br><br>
