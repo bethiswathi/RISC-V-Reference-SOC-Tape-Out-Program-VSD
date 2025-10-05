@@ -48,7 +48,6 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines key computer c
 
 <img width="803" height="400" alt="image" src="https://github.com/user-attachments/assets/e34a5321-98d2-4a8e-acf1-aaa1a497f372" />
 
-
 ## Types of SoC
 Types of SoCs based on architecture and applications
 - **Microcontroller-Based SoC (MCU SoC)**: Combines CPU, memory and basic peripherals for low-power embedded applications, ideal for simple tasks in IOT, appliances and cars. Ex:-STM32, TI MSP430
@@ -107,9 +106,9 @@ Off-Chip clocks are limited because of the following
 
 ## Digital to Analog Converter (DAC)
 - A DAC is a device that converts **digital signals** (binary numbers) into **analog voltages or currents**. DACs are essential in interfacing digital systems (like processors) with real world analog devices (speakers, sensors etc) 
-- There are 2 types of DACs:
-      - Weighted Resistor DAC
-      - R-2R Ladder DAC
+- There are 2 types of DACs
+   - Weighted Resistor DAC
+   - R-2R Ladder DAC
 
 ### Weighted Resistor DAC
 - Uses resistors weighted in powers of 2
