@@ -106,6 +106,15 @@ The commands used are<br>
 
 ### Conclusion
 The **pre-synthesis simulation** of **VSDBabySoC** was **completed successfully** and design is ready for synthesis
+
+## Tools Used
+| Tool | Purpose|
+|------|--------|
+| Icarus Verilog | RTL Simulation|
+| GTKWave |Waveform Viewer|
+| Sandpiper-saas | TL-Verilog Conversion |
+| Python3 + venv | Environment Management |
+| Ubuntu/Linux | Execution Platform |
   
 ## Synthesis of BabySoC using Yosys
 The following are the commands that are used
