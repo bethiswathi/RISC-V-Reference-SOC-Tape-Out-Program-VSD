@@ -104,7 +104,7 @@ The commands used are<br>
 - To observe analog output in gtkwave
     - Right Click---> Out(signal)---> Data Format--->Analog--->Step
 
-## Conclusion
+### Conclusion
 The **pre-synthesis simulation** of **VSDBabySoC** was **completed successfully** and design is ready for synthesis
   
 ## Synthesis of BabySoC using Yosys
@@ -122,13 +122,15 @@ The following are the commands that are used
 <img width="250" height="40" alt="image" src="https://github.com/user-attachments/assets/9d75a277-6dcc-46e9-8066-0272e55410f6" />
 
 
-
-
-
 ## Post-Synthesis Simulation
  Post-synthesis checks the synthesized design'sfunctionality and produces a VCD file for viewing the waveform in gtkwave.<br><br>
  <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/d0995cf6-09d7-4a5b-99e2-f85a3d26d45b" /> <br><br>
- <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/846249a2-264a-4b14-a6e8-1270993efaaa" />
+**Explanation**:
+- -DPOST_SYNTH_SIM:
+- -I ../include and ../module ----> Include paths for header and modules
+- -o output/post_synth_sim/post_synth_sim.out ----> Location of output
+  
+ <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/846249a2-264a-4b14-a6e8-1270993efaaa" /><br>
 **Explanation**:
 - **CLK**: clock input to the RVMYTH core
 - **reset**: signal to initialize/reset the core
