@@ -27,7 +27,7 @@ $ sudo apt-get install build-essential clangbison flex \
 $ make config-gcc
 $ git submodule update --init --recursive
 $ make
-$ sudo make install
+$ sudo make install 
 ```
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/d471ae7a-2fab-47b1-9ccb-a5ac5bff32be" />
 
