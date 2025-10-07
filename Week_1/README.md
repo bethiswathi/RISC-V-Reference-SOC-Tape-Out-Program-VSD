@@ -4,7 +4,7 @@ This week is focussed on verilog RTL design, simulation, synthesis and optimizat
 
 ### **Table of Contents**
 <details>
-  <summary> Day 1- Introduction to verilog RTL design and Synthesis<a href="Day 1/README.md"> Day 1/README.md</a></summary>
+  <summary> Day_1- Introduction to verilog RTL design and Synthesis<a href="Day_1/README.md"> Day_1/README.md</a></summary>
 
   - Introduction to open-source simulator iverilog
   - Labs using iverilog and gtkwave
@@ -13,7 +13,7 @@ This week is focussed on verilog RTL design, simulation, synthesis and optimizat
 
 </details>
 <details>
-  <summary> Day 2- Timing libs, hierachical vs flat synthesis and efficient flop coding styles<a href="Day 2/README.md"> Day 2/README.md</a></summary>
+  <summary> Day_2- Timing libs, hierachical vs flat synthesis and efficient flop coding styles<a href="Day_2/README.md"> Day_2/README.md</a></summary>
 
   - Introduction to timing .libs
   - Hierachical vs Flat synthesis
@@ -21,7 +21,7 @@ This week is focussed on verilog RTL design, simulation, synthesis and optimizat
     
 </details>
 <details>
-  <summary> Day 3- Combinational and sequential optimizations<a href="Day 3/README.md"> Day 3/README.md</a></summary>
+  <summary> Day_3- Combinational and sequential optimizations<a href="Day_3/README.md"> Day_3/README.md</a></summary>
 
   - Introduction to optimizations
   - Combinational logic optimizations
@@ -30,7 +30,7 @@ This week is focussed on verilog RTL design, simulation, synthesis and optimizat
   
 </details>
 <details>
-  <summary> Day 4- GLS,blocking vs non-blocking and Synthesis-Simulation mismatch<a href="Day 4/README.md"> Day 4/README.md</a></summary>
+  <summary> Day_4- GLS,blocking vs non-blocking and Synthesis-Simulation mismatch<a href="Day_4/README.md"> Day_4/README.md</a></summary>
 
   - GLS, Synthesis-simulation mismatch and blocking/Non-blocking statements
   - Labs on GLS and synthesis-simulation Mismatch
@@ -38,7 +38,7 @@ This week is focussed on verilog RTL design, simulation, synthesis and optimizat
 
 </details>
 <details>
-  <summary> Day 5- Optimization in synthesis<a href="Day 5/README.md"> Day 5/README.md</a></summary>
+  <summary> Day_5- Optimization in synthesis<a href="Day_5/README.md"> Day_5/README.md</a></summary>
   
   - If case constructs
   - Labs on "Incomplete if Case"
