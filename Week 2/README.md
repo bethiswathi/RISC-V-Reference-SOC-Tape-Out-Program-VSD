@@ -1,6 +1,6 @@
 This week is more focussed on SoC fundamentals and functional modelling of BabySoC using simulation tools (iverilog and Gtkwave).
 - BabySoC Fundamentals and Funcional Modelling <a href="BabySoC Fundamentals and Functional Modelling/README.md"> README.md</a>
-- BabySoC Project <a href="BabySoC Project/README.md"> README.md</a> 
+- BabySoC Project <a href="BabySoC Project/README.md"> README.md</a>  
 
  
 
