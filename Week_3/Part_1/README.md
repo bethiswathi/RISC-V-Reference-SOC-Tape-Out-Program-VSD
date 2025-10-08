@@ -26,7 +26,7 @@ The pre-synthesis simulation confirmed that the **VSDBabySoC** integrating the *
 
 ## Synthesis: From RTL to Gates
 
-**Synthesis** is the automated transformation of a high-level RTL (Register Transfer Level) description into a gate-level netlist—a physical implementation composed entirely of standard cells from a specific technology library. For this project, we use the **SKY130 PDK** (Process Design Kit) and the open-source **Yosys** synthesis tool.
+**Synthesis** converts the RTL design into gate-level netlist made of standard cells from a target technology library. In this project, the **Yosys** tool and **Sky130 PDK** are used to perform this automated RTL-to-gates transformation.
 
 ---
 
@@ -37,7 +37,7 @@ The entire synthesis workflow is automated using a Yosys script located at:
 VSDBabySoC/src/script/yosys.ys
 ```
 
-## Synthesis Log -
+## Steps Involved in Synthesis   -
 
 ### Step 1: Reading Input Design Files
 
