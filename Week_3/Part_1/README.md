@@ -213,15 +213,15 @@ GLS serves as a critical validation checkpoint in the digital design flow. Here'
 
 | **Aspect** | **Pre-Synthesis Simulation (RTL)** | **Post-Synthesis Simulation (GLS)** |
 |------------|-------------------------------------|--------------------------------------|
-| **Design Representation** | Simulates high-level behavioral Verilog code (RTL) | Simulates structural gate-level netlist (actual standard cells) |
+| **Design Level** | RTL | Gate-level netlist |
 | **Abstraction Level** | Abstract: `always` blocks, `if-else`, arithmetic operators | Concrete: AND gates, OR gates, flip-flops, multiplexers |
-| **Timing Model** | Zero-delay or unit-delay (ideal) | Realistic gate delays from technology library (.lib files) |
+| **Simulation Type** | Functional Simulation (Zero-delay, ideal) | Timing Simulation (real gate delays from .lib) |
 | **Delay Information** | No real delay information; focuses on logical correctness | Includes setup/hold times, propagation delays, clock-to-Q delays |
-| **Primary Goal** | Verify functional correctness of the algorithm | Verify post-synthesis functional correctness AND check for timing issues |
+| **Primary Goal** | Verify functional and logical correctness of the RTL code | Performnace, timing and area optimization |
 | **Errors Detected** | Logic bugs, FSM errors, algorithmic mistakes, incorrect protocol implementation | Synthesis-induced bugs, timing violations, glitches, race conditions, X-propagation |
 | **Models Used** | RTL Verilog files written by designer | Standard cell Verilog models from foundry (e.g., `sky130_fd_sc_hd.v`) |
 | **Output Accuracy** | Logically correct but timing-optimistic | More accurate representation of actual silicon behavior |
-
+| **Tools Used** | Verilog Simulator (iverilog, Modelsim) | Yosys (synthesis), OpenSTA (timing) |
 ---
 
 ### Gate-Level Simulation log -
