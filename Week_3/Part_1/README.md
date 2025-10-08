@@ -18,7 +18,7 @@ The pre-synthesis simulation confirmed that the **VSDBabySoC** integrating the *
 
 ### Pre-Synthesis (RTL) Simulation Waveform
   
-  <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/dca20f2f-2d04-496b-bf73-230b5ba98952" /><br>
+  <img width="900" height="300" alt="image" src="https://github.com/user-attachments/assets/dca20f2f-2d04-496b-bf73-230b5ba98952" /><br>
 - To observe analog output in gtkwave
    - Right Click---> Out(signal)---> Data Format--->Analog--->Step
 
