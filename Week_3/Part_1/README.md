@@ -202,7 +202,7 @@ write_verilog -noattr ../../output/synth/vsdbabysoc.synth.v
 - **Structural simulation:** Simulates the actual gates and flip-flops that will be fabricated on silicon
 - **Technology-specific:** Uses models from the SKY130 PDK that match the physical characteristics of manufactured chips
 
-## ✅Expected Outcomes
+### ✅Expected Outcomes
 
 - Confirms functional equivalence between RTL and gate-level design.
 - Identifies any timing violations or glitches introduced after synthesis.
@@ -224,7 +224,7 @@ write_verilog -noattr ../../output/synth/vsdbabysoc.synth.v
 - Post-synthesis simulation is a crucial step in the digital design flow because it verifies that the synthesized (gate-level) version of the circuit still behaves correctly and meets timing requirements — just like the original RTL design.
 - GLS serves as a critical validation checkpoint in the digital design flow. Here's why it's indispensable:
 
-## 🧩Ensures Functional Equivalence
+### 🧩 1. Ensures Functional Equivalence
 
 - After synthesis, your RTL code is converted into a gate-level netlist made of standard cells.
 - Post-synthesis simulation verifies that logic optimizations or resource sharing done by the synthesis tool haven’t changed the intended functionality.
@@ -232,29 +232,30 @@ write_verilog -noattr ../../output/synth/vsdbabysoc.synth.v
 ✅ Ensures that “what you built” is the same as “what you designed.”
 
 
-## ⚙️Verifies Timing Behavior
+### ⚙️ 2. Verifies Timing Behavior
 
 - Unlike RTL simulation (which assumes zero delay), gate-level simulation includes real propagation delays from the standard cell library or SDF file.
 - This helps check for setup, hold, or glitch-related issues due to signal timing.
   
 ✅ Confirms the design works correctly under realistic timing conditions.
 
-## 🧠Detects Synthesis-Introduced Issues
+### 🧠 3. Detects Synthesis-Introduced Issues
 
 - Sometimes synthesis tools modify or optimize the logic in ways that might introduce:
 - Unintended logic inversions
 - Mismatched reset or clock behavior
 - Missing signals due to constant propagation
+  
 ✅ Post-synthesis simulation helps catch these synthesis-induced bugs early.
 
-## 🧾Validates Testbench Reusability
+### 🧾 4. Validates Testbench Reusability
 
 - The same testbench used in pre-synthesis (RTL) simulation is applied to the gate-level design.
 - If both pass with the same output, it confirms testbench correctness and consistency.
 
 ✅ Assures your verification setup is solid.
 
-## ⏱️Builds Confidence Before Physical Design
+### ⏱️ 5. Builds Confidence Before Physical Design
 
 - Successful post-synthesis simulation gives confidence that the netlist is functionally correct before moving on to:
 - Static Timing Analysis (STA)
@@ -262,21 +263,9 @@ write_verilog -noattr ../../output/synth/vsdbabysoc.synth.v
   
 ✅ Reduces the risk of discovering functional errors late in the design flow.
 
-
-#### 1. **Validates Synthesis Correctness** ✅
-- Confirms that the synthesis tool correctly translated RTL to gates without introducing functional bugs
-- Ensures that optimizations didn't inadvertently change the design's behavior
-- Catches errors like incorrect FSM encoding or logic minimization mistakes
-
-#### 2. **Detects Synthesis-Induced Problems** ⚠️
-- **Unintended latches:** Synthesis may infer latches from incomplete `if-else` or `case` statements, causing unpredictable behavior
-- **X-propagation:** Unknown (`x`) values that can corrupt the entire simulation
-- **Optimization artifacts:** Rare cases where aggressive optimization creates incorrect logic
-- **Combinational loops:** Feedback paths without registers that cause simulation to hang
-
 ---
 
-### Pre-Synthesis vs. Post-Synthesis Simulation
+## Pre-Synthesis vs. Post-Synthesis Simulation
 
 | **Aspect** | **Pre-Synthesis Simulation (RTL)** | **Post-Synthesis Simulation (GLS)** |
 |------------|-------------------------------------|--------------------------------------|
