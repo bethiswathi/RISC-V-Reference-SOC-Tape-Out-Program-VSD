@@ -34,9 +34,9 @@ The pre-synthesis simulation confirmed that the **VSDBabySoC** integrating the *
 
 The entire synthesis workflow is automated using a Yosys script located at:
 ```
-VSDBabySoC/src/script/yosys.ys
+/VSDBabySoCProject/soc/VSDBabySoC/src/script/yosys.ys
 ```
-
+<img width="700" height="402" alt="image" src="https://github.com/user-attachments/assets/ae712481-0e29-4728-81cb-687f7b053914" />
 ## Steps Involved in Synthesis   -
 
 ### Step 1: Reading Input Design Files
