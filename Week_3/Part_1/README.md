@@ -62,7 +62,6 @@ read_verilog -sv -I ../include clk_gate.v
 ```
 - Loads the clock gating logic, which is used to disable clock signals to inactive portions of the circuit to save power.
 - `-I ../include`: Ensures any dependencies are resolved from the include directory
-
 ---
 
 ### 🧩Step 2: Reading Technology Libraries
@@ -138,9 +137,6 @@ flatten
 - Removes all hierarchical boundaries, creating a single flat module containing all standard cells.
 - To view the hierarchical design we can use `show vsdbabysoc` before the `flatten` command.
 
-The synthesized output:
-
-
 ####
 ```tcl
 setundef -zero
@@ -154,15 +150,11 @@ clean -purge
 ```
 - Performs a final, aggressive cleanup of the netlist.
 
-
 ####
 ```tcl
 stat
 ```
 - Generates a detailed report of the synthesized design.
-
-**Report of the VSDBabySoC:**
-
 
 ####
 ```tcl
@@ -171,13 +163,21 @@ write_verilog -noattr ../../output/synth/vsdbabysoc.synth.v
 - Exports the final synthesized netlist to a Verilog file.
 - `-noattr`: Suppresses Yosys-specific attributes from being written to the file
 
-**This file is the primary output of synthesis** and will be used for:
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/ee64c48e-cc98-466e-80c5-79101adf1697" /><br><br>
+<img width="700" height="50" alt="image" src="https://github.com/user-attachments/assets/344caa11-b5db-4002-ba36-a97718e5ec09" /><br><br>
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/8779999b-1532-423c-a449-0eb26778e517" /><br><br>
+<img width="402" height="300" alt="image" src="https://github.com/user-attachments/assets/c6ed313d-f844-4bd0-8aeb-cb751534d6b4" /><br><br>
+<img width="466" height="350" alt="image" src="https://github.com/user-attachments/assets/15071508-c760-4dbd-aef2-048b02d77afc" /><br><br>
+<img width="449" height="300" alt="image" src="https://github.com/user-attachments/assets/5c777b9b-8d0b-4fa5-b74d-ee31f62db16b" /><br><br>
+<img width="418" height="300" alt="image" src="https://github.com/user-attachments/assets/a9191fda-319c-4930-8446-e70c29827f79" /><br><br>
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/023fa2a1-ddeb-4f0d-9057-7ff862a3c18d" /><br><br>
+<img width="700" height="80" alt="image" src="https://github.com/user-attachments/assets/78b004a6-46d4-40a7-9cfd-19093c957b94" /><br>
+<img width="250" height="40" alt="image" src="https://github.com/user-attachments/assets/9d75a277-6dcc-46e9-8066-0272e55410f6" />
+
+
+**The primary output of synthesis** will be used for:
 - Post-synthesis simulation (Gate-Level Simulation)
 - Static Timing Analysis (STA)
-
-<img width="1854" height="1048" alt="image" src="https://github.com/user-attachments/assets/aecf70d3-9566-4c3c-baca-eb72b7268e1c" />
-
-
 ---
 
 ## Post-Synthesis Simulation (GLS)
