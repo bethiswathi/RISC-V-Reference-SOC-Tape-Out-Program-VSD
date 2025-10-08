@@ -17,8 +17,10 @@ In this stage, the **VSDBabySoC** design was verified at **RTL level** to ensure
 The pre-synthesis simulation confirmed that the **VSDBabySoC** integrating the **rvmyth** RiSC-V CPU core, executed its test proram correctly. The CPU's digital outputs were properly converted by the **DAC** into expected analog signals. This validated the design's intended funtionality and established a reference for comparing future post-synthesis results.
 
 ### Pre-Synthesis (RTL) Simulation Waveform
-
-  <img width="1920" height="1080" alt="Screenshot from 2025-10-04 16-22-44" src="https://github.com/user-attachments/assets/6107a2f2-8ece-43ea-86ce-de3ace828784" />
+  
+  <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/dca20f2f-2d04-496b-bf73-230b5ba98952" /><br>
+- To observe analog output in gtkwave
+  
 
 ---
 
