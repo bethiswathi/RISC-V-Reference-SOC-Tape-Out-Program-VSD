@@ -1,4 +1,4 @@
-# Post-Synthesis GLS
+
 # VSDBabySoC: Synthesis and Gate-Level Simulation (WEEK 3- Part 1)
 
 ## Table of Contents
