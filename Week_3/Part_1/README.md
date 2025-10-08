@@ -202,26 +202,66 @@ write_verilog -noattr ../../output/synth/vsdbabysoc.synth.v
 - **Structural simulation:** Simulates the actual gates and flip-flops that will be fabricated on silicon
 - **Technology-specific:** Uses models from the SKY130 PDK that match the physical characteristics of manufactured chips
 
----
-## Post-Synthesis Simulation
- Post-synthesis checks the synthesized design'sfunctionality and produces a VCD file for viewing the waveform in gtkwave.<br><br>
- <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/d0995cf6-09d7-4a5b-99e2-f85a3d26d45b" /> <br><br>
+## ✅Expected Outcomes
+
+- Confirms functional equivalence between RTL and gate-level design.
+- Identifies any timing violations or glitches introduced after synthesis.
+- Generates waveforms showing realistic timing behavior.
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/d0995cf6-09d7-4a5b-99e2-f85a3d26d45b" /> <br><br>
+
+ <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/846249a2-264a-4b14-a6e8-1270993efaaa" /><br>
+
 **Explanation**:
 - -DPOST_SYNTH_SIM:
 - -I ../include and ../module ----> Include paths for header and modules
 - -o output/post_synth_sim/post_synth_sim.out ----> Location of output
   
- <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/846249a2-264a-4b14-a6e8-1270993efaaa" /><br>
-**Explanation**:
-- **CLK**: clock input to the RVMYTH core
-- **reset**: signal to initialize/reset the core
-- **out/\core.OUT[9:0]**: 10-bit digital output from the core. 
-- **OUT**: DAC output (simulated in GLS)
+----
+
+## 🌟Importance of Post-Synthesis Simulation
+
+- Post-synthesis simulation is a crucial step in the digital design flow because it verifies that the synthesized (gate-level) version of the circuit still behaves correctly and meets timing requirements — just like the original RTL design.
+- GLS serves as a critical validation checkpoint in the digital design flow. Here's why it's indispensable:
+
+## 🧩Ensures Functional Equivalence
+
+- After synthesis, your RTL code is converted into a gate-level netlist made of standard cells.
+- Post-synthesis simulation verifies that logic optimizations or resource sharing done by the synthesis tool haven’t changed the intended functionality.
+  
+✅ Ensures that “what you built” is the same as “what you designed.”
 
 
-### Why is Post-Synthesis Simulation Important?
+## ⚙️Verifies Timing Behavior
 
-GLS serves as a critical validation checkpoint in the digital design flow. Here's why it's indispensable:
+- Unlike RTL simulation (which assumes zero delay), gate-level simulation includes real propagation delays from the standard cell library or SDF file.
+- This helps check for setup, hold, or glitch-related issues due to signal timing.
+  
+✅ Confirms the design works correctly under realistic timing conditions.
+
+## 🧠Detects Synthesis-Introduced Issues
+
+- Sometimes synthesis tools modify or optimize the logic in ways that might introduce:
+- Unintended logic inversions
+- Mismatched reset or clock behavior
+- Missing signals due to constant propagation
+✅ Post-synthesis simulation helps catch these synthesis-induced bugs early.
+
+## 🧾Validates Testbench Reusability
+
+- The same testbench used in pre-synthesis (RTL) simulation is applied to the gate-level design.
+- If both pass with the same output, it confirms testbench correctness and consistency.
+
+✅ Assures your verification setup is solid.
+
+## ⏱️Builds Confidence Before Physical Design
+
+- Successful post-synthesis simulation gives confidence that the netlist is functionally correct before moving on to:
+- Static Timing Analysis (STA)
+- Placement & Routing (P&R)
+  
+✅ Reduces the risk of discovering functional errors late in the design flow.
+
 
 #### 1. **Validates Synthesis Correctness** ✅
 - Confirms that the synthesis tool correctly translated RTL to gates without introducing functional bugs
