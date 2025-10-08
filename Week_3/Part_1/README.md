@@ -54,21 +54,18 @@ read_verilog vsdbabysoc.v
 read_verilog -sv -I ../include ../../output/compiled_tlv/rvmyth.v
 ```
 - Loads the `rvmyth` RISC-V CPU core, which is the computational heart of the SoC.
-- `-I./include`: Instructs Yosys to search the `./include` directory for any header files that `rvmyth.v` reference using `` `include`` directives.
+- `-I ../include`: Instructs Yosys to search the `../include` directory for any header files that `rvmyth.v` reference using `` `include`` directives.
 
 ####
 ```tcl
 read_verilog -sv -I ../include clk_gate.v
 ```
 - Loads the clock gating logic, which is used to disable clock signals to inactive portions of the circuit to save power.
-- `-I./include`: Ensures any dependencies are resolved from the include directory.
-
-<img width="1920" height="1080" alt="Screenshot from 2025-10-05 18-02-50" src="https://github.com/user-attachments/assets/caa15e55-803c-4016-ad3c-24d81876c163" />
-
+- `-I ../include`: Ensures any dependencies are resolved from the include directory
 
 ---
 
-### Step 2: Reading Technology Libraries
+### 🧩Step 2: Reading Technology Libraries
 
 Before synthesis can begin, Yosys needs detailed information about the physical characteristics of the available standard cells and macros. This information is provided in **Liberty (.lib)** format files.
 
@@ -91,9 +88,6 @@ read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 - Loads the complete SKY130 High-Density standard cell library for **typical** process corner, **25°C** temperature, and **1.8V** supply voltage.
 
-<img width="1920" height="1080" alt="Screenshot from 2025-10-05 18-04-01" src="https://github.com/user-attachments/assets/94df4d47-8302-476a-98a3-ac4583cbf24c" />
-
-
 ---
 
 ### Step 3: High-Level Synthesis
@@ -106,14 +100,7 @@ synth -top vsdbabysoc
 ```
 - Executes the main synthesis flow. Converts the RTL code into a synthesized design.
 
-<img width="1920" height="1080" alt="Screenshot from 2025-10-05 18-05-41" src="https://github.com/user-attachments/assets/6a35dbbf-a8fb-486b-b464-65b7a9a8730f" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3b10361a-27ee-46a2-be08-ca2554be0507" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/85db41d2-e54b-4e2e-9903-26722c6fd290" />
-
-
----
+--
 
 ### Step 4: Technology Mapping
 
@@ -125,17 +112,11 @@ dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 - Maps all generic D flip-flops (`$dff` cells) inferred during synthesis to actual flip-flop implementations from the SKY130 library.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/107953bc-f5b0-471c-a74f-288319a3a4e3" />
-
-
 ####
 ```tcl
 opt
 ```
 - Runs a series of optimization passes on the partially mapped design.
-
-<img width="1854" height="1048" alt="image" src="https://github.com/user-attachments/assets/f7f8fbd3-377e-45b8-bb85-8ae336d3c9cf" />
-
 
 ####
 ```tcl
@@ -143,11 +124,6 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 - This is the **core technology mapping step** where combinational logic is mapped to actual SKY130 gates.
 - This single command determines the area, delay, and power of your entire synthesized design. The quality of ABC's mapping directly impacts chip performance.
-
-<img width="1854" height="1048" alt="image" src="https://github.com/user-attachments/assets/300e8508-83ff-49ef-a731-8d4d30664ac4" />
-
-<img width="1909" height="760" alt="image" src="https://github.com/user-attachments/assets/e7c9a7e6-8123-4c22-a49e-d0bd7840d221" />
-
 
 ---
 
@@ -162,10 +138,7 @@ flatten
 - Removes all hierarchical boundaries, creating a single flat module containing all standard cells.
 - To view the hierarchical design we can use `show vsdbabysoc` before the `flatten` command.
 
-The hierarchical synthesized output:
-<img width="1906" height="1044" alt="image" src="https://github.com/user-attachments/assets/ca0f0fa4-40b1-4ed0-9372-06f4882e5799" />
-
-<img width="1854" height="1048" alt="image" src="https://github.com/user-attachments/assets/ecb78d48-ebc2-463a-9015-3188cc26e8f6" />
+The synthesized output:
 
 
 ####
@@ -181,8 +154,6 @@ clean -purge
 ```
 - Performs a final, aggressive cleanup of the netlist.
 
-<img width="1854" height="1048" alt="image" src="https://github.com/user-attachments/assets/d31bc0c7-97e2-42e6-b5ec-274f7dc5acbe" />
-
 
 ####
 ```tcl
@@ -191,81 +162,7 @@ stat
 - Generates a detailed report of the synthesized design.
 
 **Report of the VSDBabySoC:**
-```
-=== vsdbabysoc ===
 
-        +----------Local Count, excluding submodules.
-        | 
-     4054 wires
-     5528 wire bits
-      104 public wires
-     1578 public wire bits
-        7 ports
-        7 port bits
-     5238 cells
-        8   $scopeinfo
-        1   avsddac
-        1   avsdpll
-        1   sky130_fd_sc_hd__a2111oi_0
-        8   sky130_fd_sc_hd__a211o_1
-      329   sky130_fd_sc_hd__a211oi_1
-        8   sky130_fd_sc_hd__a21boi_0
-        9   sky130_fd_sc_hd__a21o_1
-      728   sky130_fd_sc_hd__a21oi_1
-        1   sky130_fd_sc_hd__a221o_1
-       42   sky130_fd_sc_hd__a221oi_1
-      227   sky130_fd_sc_hd__a222oi_1
-        2   sky130_fd_sc_hd__a22o_1
-      112   sky130_fd_sc_hd__a22oi_1
-        1   sky130_fd_sc_hd__a2bb2oi_1
-       27   sky130_fd_sc_hd__a311oi_1
-        3   sky130_fd_sc_hd__a31o_1
-       15   sky130_fd_sc_hd__a31oi_1
-        1   sky130_fd_sc_hd__a32oi_1
-        1   sky130_fd_sc_hd__a41oi_1
-       39   sky130_fd_sc_hd__and2_0
-       33   sky130_fd_sc_hd__and3_1
-        4   sky130_fd_sc_hd__and3b_1
-        9   sky130_fd_sc_hd__and4_1
-        1   sky130_fd_sc_hd__and4b_1
-       41   sky130_fd_sc_hd__clkinv_1
-     1144   sky130_fd_sc_hd__dfxtp_1
-       16   sky130_fd_sc_hd__lpflow_inputiso1p_1
-       62   sky130_fd_sc_hd__lpflow_isobufsrc_1
-       18   sky130_fd_sc_hd__maj3_1
-        5   sky130_fd_sc_hd__mux2_1
-       64   sky130_fd_sc_hd__mux2i_1
-        1   sky130_fd_sc_hd__mux4_2
-     1251   sky130_fd_sc_hd__nand2_1
-       28   sky130_fd_sc_hd__nand2b_1
-       67   sky130_fd_sc_hd__nand3_1
-       32   sky130_fd_sc_hd__nand4_1
-      516   sky130_fd_sc_hd__nor2_1
-        3   sky130_fd_sc_hd__nor2b_1
-       19   sky130_fd_sc_hd__nor3_1
-        7   sky130_fd_sc_hd__nor3b_1
-        6   sky130_fd_sc_hd__nor4_1
-        1   sky130_fd_sc_hd__o2111ai_1
-       10   sky130_fd_sc_hd__o211ai_1
-       16   sky130_fd_sc_hd__o21a_1
-      146   sky130_fd_sc_hd__o21ai_0
-        2   sky130_fd_sc_hd__o221ai_1
-        2   sky130_fd_sc_hd__o22a_1
-       13   sky130_fd_sc_hd__o22ai_1
-        1   sky130_fd_sc_hd__o2bb2ai_1
-        2   sky130_fd_sc_hd__o311ai_0
-        7   sky130_fd_sc_hd__o31ai_1
-        1   sky130_fd_sc_hd__o32a_1
-        4   sky130_fd_sc_hd__o32ai_1
-        2   sky130_fd_sc_hd__o41a_1
-        4   sky130_fd_sc_hd__o41ai_1
-        9   sky130_fd_sc_hd__or3_1
-        3   sky130_fd_sc_hd__or4_1
-        1   sky130_fd_sc_hd__or4b_1
-       77   sky130_fd_sc_hd__xnor2_1
-       46   sky130_fd_sc_hd__xor2_1
-
-```
 
 ####
 ```tcl
