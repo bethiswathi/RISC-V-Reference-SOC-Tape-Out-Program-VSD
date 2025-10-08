@@ -36,29 +36,29 @@ The entire synthesis workflow is automated using a Yosys script located at:
 ```
 /VSDBabySoCProject/soc/VSDBabySoC/src/script/yosys.ys
 ```
-<img width="700" height="402" alt="image" src="https://github.com/user-attachments/assets/ae712481-0e29-4728-81cb-687f7b053914" />
+
 ## Steps Involved in Synthesis   -
 
-### Step 1: Reading Input Design Files
+### 🧩Step 1: Reading Input Design Files
 
 The first phase involves loading all Verilog source files that describe the design's behavior.
 
 ####
 ```tcl
-read_verilog ./module/vsdbabysoc.v
+read_verilog vsdbabysoc.v
 ```
 - Loads the top-level Verilog file that defines the complete VSDBabySoC system. This file instantiates and connects all major components: the RISC-V core, PLL, DAC, and any glue logic.
 
 ####
 ```tcl
-read_verilog -I./include ../output/compiled_tlv/rvmyth.v
+read_verilog -sv -I ../include ../../output/compiled_tlv/rvmyth.v
 ```
 - Loads the `rvmyth` RISC-V CPU core, which is the computational heart of the SoC.
 - `-I./include`: Instructs Yosys to search the `./include` directory for any header files that `rvmyth.v` reference using `` `include`` directives.
 
 ####
 ```tcl
-read_verilog -I./include ./module/clk_gate.v
+read_verilog -sv -I ../include clk_gate.v
 ```
 - Loads the clock gating logic, which is used to disable clock signals to inactive portions of the circuit to save power.
 - `-I./include`: Ensures any dependencies are resolved from the include directory.
@@ -74,20 +74,20 @@ Before synthesis can begin, Yosys needs detailed information about the physical 
 
 ####
 ```tcl
-read_liberty -lib ./lib/avsdpll.lib
+read_liberty -lib ../lib/avsdpll.lib
 ```
 - Loads the timing, power, and functional characteristics of the Analog Voltage Scaled Digital Phase-Locked Loop (PLL) macro.
 
 ####
 ```tcl
-read_liberty -lib ./lib/avsddac.lib
+read_liberty -lib ../lib/avsddac.lib
 ```
 
 - Loads the characterization data for the Analog Voltage Scaled Digital-to-Analog Converter (DAC).
 
 ####
 ```tcl
-read_liberty -lib ./lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 - Loads the complete SKY130 High-Density standard cell library for **typical** process corner, **25°C** temperature, and **1.8V** supply voltage.
 
@@ -121,7 +121,7 @@ Now we map the generic logic to actual physical cells from the SKY130 library.
 
 ####
 ```tcl
-dfflibmap -liberty ./lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 - Maps all generic D flip-flops (`$dff` cells) inferred during synthesis to actual flip-flop implementations from the SKY130 library.
 
@@ -139,7 +139,7 @@ opt
 
 ####
 ```tcl
-abc -liberty ./lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 - This is the **core technology mapping step** where combinational logic is mapped to actual SKY130 gates.
 - This single command determines the area, delay, and power of your entire synthesized design. The quality of ABC's mapping directly impacts chip performance.
@@ -269,7 +269,7 @@ stat
 
 ####
 ```tcl
-write_verilog -noattr ../output/synth/vsdbabysoc.synth.v
+write_verilog -noattr ../../output/synth/vsdbabysoc.synth.v
 ```
 - Exports the final synthesized netlist to a Verilog file.
 - `-noattr`: Suppresses Yosys-specific attributes from being written to the file
