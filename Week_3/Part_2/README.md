@@ -272,7 +272,7 @@ This defines the main input clock that drives flip-flops directly.
 
 #### Example:
 ```
-create_clock -name sys_clk -period 20 -waveform {0 8} [get_ports clk]
+create_clock -name clk -period 10 [get_ports clk]
 
 ```
 #### Explanation:
@@ -280,6 +280,61 @@ create_clock -name sys_clk -period 20 -waveform {0 8} [get_ports clk]
 - -name clk → Clock name
 - -period 10 → Clock period = 10 ns (100 MHz)
 - [get_ports clk] → The clock signal comes from the input port clk
+
+### ✅ 2️⃣ Clock Waveform Definition
+
+By default, STA assumes a 50% duty cycle (rising edge at 0 ns, falling edge at period/2).
+You can specify custom waveforms:
+#### Example:
+```
+create_clock -name sys_clk -period 20 -waveform {0 8} [get_ports sys_clk]
+
+```
+#### Meaning:
+
+- Period = 20 ns (50 MHz)
+- Rising edge = 0 ns
+- Falling edge = 8 ns → → 40% duty cycle
+
+### ✅ 3️⃣ Generated Clock Definition
+
+Used when the clock is derived from another clock — e.g., via a divider, PLL, or clock gate.
+
+#### Example:
+```
+create_generated_clock -name div_clk -divide_by 2 \-source [get_ports clk] [get_pins u_divider/clk_out]
+
+```
+#### Explanation:
+
+- -divide_by 2 → Frequency divided by 2
+- -source [get_ports clk] → Derived from the main clock
+- [get_pins u_divider/clk_out] → The output pin where the new clock appears
+
+
+### ✅ 4️⃣ Virtual Clock Definition
+
+A virtual clock is used when no physical clock port exists — e.g., for input/output timing of external interfaces.
+
+#### Example:
+```
+create_clock -name virt_clk -period 10
+
+```
+Then, it’s used for input/output constraints:
+```
+set_input_delay 2 -clock virt_clk [get_ports data_in]
+set_output_delay 3 -clock virt_clk [get_ports data_out]
+
+```
+
+### ✅ 5️⃣ Clock Uncertainty
+
+Accounts for clock jitter or variation (timing margin).
+
+
+
+
 
 
 
