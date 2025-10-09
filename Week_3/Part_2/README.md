@@ -303,7 +303,6 @@ Used when the clock is derived from another clock — e.g., via a divider, PLL, 
 #### Example:
 ```
 create_generated_clock -name div_clk -divide_by 2 \-source [get_ports clk] [get_pins u_divider/clk_out]
-
 ```
 #### Explanation:
 
@@ -331,16 +330,20 @@ set_output_delay 3 -clock virt_clk [get_ports data_out]
 ### ✅ 5️⃣ Clock Uncertainty
 
 Accounts for clock jitter or variation (timing margin).
+```
+set_clock_uncertainty 0.2 [get_clocks clk]
+```
+- Adds ±0.2 ns uncertainty to setup/hold calculations.
 
 
+### ✅ 6️⃣ Clock Latency and Skew
 
+**Clock Latency**: Time taken for the clock signal to reach a flip-flop from its source.
+```
+set_clock_latency 1.0 [get_clocks clk]
+```
 
-
-
-
-
-
-
+**Clock Skew**: Difference in clock arrival between launch and capture flops — STA tools calculate this automatically but you can also constrain it.
 
 
 ### 📊 Types of Clocks Summary
