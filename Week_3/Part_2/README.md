@@ -179,7 +179,7 @@ It tells how much “timing margin” you have — whether your signal is early 
 
 <br>
 
-## 🧮 Slack Types in STA
+## 🧮 Types of Slack 
 
 - There are two main types of slack corresponding to setup and hold checks.
    - Setup Slack
