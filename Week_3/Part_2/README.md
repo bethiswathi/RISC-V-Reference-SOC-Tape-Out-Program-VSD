@@ -101,6 +101,13 @@ It then checks if setup and hold constraints are satisfied for each timing path.
 
 - If the data arrives too late, it violates the setup time requirement.
 
+### 🧩 Setup Check Condition
+
+Data launched by one flip-flop (FF1) must reach the destination flip-flop (FF2) before FF2’s clock edge that captures it.
+```
+Clock period ≥ (Launch clock delay + Data path delay + Setup time) − Capture clock delay
+````
+
 ### 📉 Setup Violation
 
 | Cause                  | Fix                                    |
@@ -118,6 +125,13 @@ It then checks if setup and hold constraints are satisfied for each timing path.
 
 - If data changes too early, it violates the hold time.
 
+### 🧩 Hold Check Condition
+
+Data from FF1’s output must not arrive at FF2’s input too soon after FF2’s clock edge.
+````
+Data path delay ≥ (Hold time + Capture clock delay − Launch clock delay)
+
+````
 
 ### 📉 Hold Violation
 
@@ -219,7 +233,4 @@ Hold Slack = Datapath Delay - Hold Time
 
   
 
-o Clock definitions 
-o Path-based analysis 
-Deliverable: 
-A one-page summary or key notes from the STA course (bullet points are fine).
+
