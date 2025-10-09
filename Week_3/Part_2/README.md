@@ -49,6 +49,7 @@ It then checks if setup and hold constraints are satisfied for each timing path.
 <br>
 
 ### ⏱️ Two Main Timing Checks
+
 | Type                 | Checks                                            | Violation When                                   |
 | -------------------- | ------------------------------------------------- | ------------------------------------------------ |
 | **Setup Time Check** | Data must arrive **before** the active clock edge | Data arrives **too late** (negative setup slack) |
@@ -57,6 +58,7 @@ It then checks if setup and hold constraints are satisfied for each timing path.
 <br>
 
 ### 🧰 Inputs Required for STA
+
 | Input                         | Description                                              |
 | ----------------------------- | -------------------------------------------------------- |
 | **Netlist (.v)**              | Post-synthesis gate-level description                    |
@@ -151,7 +153,7 @@ It then checks if setup and hold constraints are satisfied for each timing path.
 #### 🧭 Slack = Required Time − Arrival Time
 
 It tells how much “timing margin” you have — whether your signal is early enough (positive slack ✅) or too late (negative slack ❌).
-
+<br><br>
 
 ### 🧩 Meaning of Slack Values
 
@@ -162,6 +164,34 @@ It tells how much “timing margin” you have — whether your signal is early 
 | **Negative (−)** | Data arrives too late (misses timing)     | ❌ Timing violation         |
 
 <br>
+
+## 🧮 Slack Types in STA
+
+- There are two main types of slack corresponding to setup and hold checks.
+   - Setup Slack
+   - Hold Slack
+
+### 1️⃣ Setup Slack
+
+- Checks late arrival (data must arrive before next clock edge)
+- Computed over two consecutive clock cycles
+
+#### Formula:
+```
+Setup Slack = (Clock Period - Setup Time) - Datapath Delay
+
+```
+
+### 2️⃣ Hold Slack
+
+- Checks early arrival (data must not change too soon)
+- Computed within the same clock edge
+
+#### Formula:
+```
+Hold Slack = Datapath Delay - Hold Time
+
+```
 
 ### 📊 Summary Table
 
@@ -188,9 +218,7 @@ It tells how much “timing margin” you have — whether your signal is early 
 
 
   
- Focus on: 
-o Setup and Hold checks 
-o Slack 
+
 o Clock definitions 
 o Path-based analysis 
 Deliverable: 
