@@ -1,4 +1,4 @@
-## 🎯 Installation Of OpenSTA tool for Timing and Power Analysis
+# 🎯 Installation Of OpenSTA tool for Timing and Power Analysis
 
 
 🎯  🛠️
