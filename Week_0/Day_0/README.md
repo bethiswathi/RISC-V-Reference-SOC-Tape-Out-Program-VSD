@@ -1,4 +1,17 @@
-# RISC-V-Reference-SOC-Tape-Out-Program-VSD
+# 🎯 RISC-V-Reference-SOC-Tape-Out-Program-VSD
+
+<div align="center">
+
+![RISC-V Logo](https://img.shields.io/badge/RISC--V-Architecture-blue?style=for-the-badge&logo=risc-v)
+![VSD](https://img.shields.io/badge/VSD-VLSI%20System%20Design-orange?style=for-the-badge)
+![IIT Gandhinagar](https://img.shields.io/badge/IIT-Gandhinagar-green?style=for-the-badge)
+
+**From RTL Design to Silicon Tapeout**
+
+*Organized by IIT Gandhinagar & VLSI System Design (VSD)*
+
+</div>
+
 
 ## Tools Installation
 
