@@ -18,6 +18,30 @@ STA computes timing delays across all paths from:
 
 It then checks if setup and hold constraints are satisfied for each timing path.
 <br><br>
+
+### 🧩 What Are Path Groups?
+
+- In STA, a path group is a logical collection of timing paths that share a common clock or similar timing requirement.
+- They help organize and analyze timing results efficiently — especially when you have many clocks or design domains.
+
+### 🧠 Why Path Groups Are Used
+
+- To **separate timing analysis** per clock domain
+- To **prioritize** certain paths (e.g., high-frequency clocks)
+- To **simplify reports** (e.g., “show me worst slack per path group”)
+- To **apply constraints** (like exceptions, multi-cycle paths) more easily
+
+### ⚙️ Common Types of Path Groups
+
+| **Path Group**                    | **Startpoint → Endpoint** | **Description / Example**                                                                        |
+| --------------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------ |
+| **1. Reg2Reg**                    | Register → Register       | Most common — data launched by one FF and captured by another on the same or related clock.      |
+| **2. Reg2Out**                    | Register → Output port    | Data launched from a FF and sent out to a chip output pin (must meet external setup).            |
+| **3. In2Reg**                     | Input port → Register     | Data coming from an external input and captured by a FF inside the chip (must meet input delay). |
+| **4. In2Out**                     | Input port → Output port  | Pure combinational path through the design (rare in synchronous systems).                        |
+
+<br>
+
 ### 🔗 Key Terms in STA
 
 | Term | Description |
