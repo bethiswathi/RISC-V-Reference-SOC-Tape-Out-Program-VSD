@@ -156,12 +156,19 @@ This command initiates the build process for OpenSTA. It compiles the source cod
 sudo make install
 ```
 <img width="720" height="436" alt="image" src="https://github.com/user-attachments/assets/49e9434d-42db-432f-a32c-2576eeb666c4" /><br>
-<img width="798" height="400" alt="image" src="https://github.com/user-attachments/assets/a40e0df0-7f62-416c-8de3-0b0dc53697a5" /><br>
 
+OpenSTA is instsalled successfully
 
+- To check that, type sta on your terminal
+<img width="798" height="400" alt="image" src="https://github.com/user-attachments/assets/a40e0df0-7f62-416c-8de3-0b0dc53697a5" /><br><br>
 
-
-
+- After installation process is successful, 
+Move to the folder whee you have constraints, sdc, netlist, test.tcl and invoke OpenSTA by typing sta. The tool interface should launch without any errors or issues if installation is successful.
+```
+source delay_calc.tcl
+``` 
+<img width="800" height="501" alt="image" src="https://github.com/user-attachments/assets/2732f085-dbb6-42c0-b173-357362262d11" /><br><br>
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/b24560da-ccf0-4ddf-9c64-0bc1a4727f99" /><br>
 
 
 
