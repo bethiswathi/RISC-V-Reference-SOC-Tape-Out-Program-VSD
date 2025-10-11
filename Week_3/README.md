@@ -1,7 +1,6 @@
 This week we discuss about the following topics
 
--Recap of post-synthesis and GLS Simulation
-
+- Recap of post-synthesis and GLS         Simulation <a href> Post-synthesis and GLS Simulation </a>
 - Fundamentals of OpenSTA
 - Installation of OpenSTA 
 
