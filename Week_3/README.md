@@ -1,3 +1,15 @@
+This week we discuss about the following topics
+
+-Recap of post-synthesis and GLS Simulation
+
+- Fundamentals of OpenSTA
+- Installation of OpenSTA 
+
+
+
+
+
+
 ### 🧩Related Tools For STA
 | Tool | Type | Description |
 |------|------|-------------|
