@@ -1,6 +1,14 @@
 # 🚀 Introduction to OpenSTA 
 
+**OpenSTA (Open Static Timing Analyzer)**  is an **open-source static timing ananlysis tool** used in VLSI **digital design flows** ---especially within the **OpenRoad poject**.
+- It checks whether your synthesized or placed-and-routed digital circuit **meets timing requirements**, without doing time based simulation.
 
+## 🧩What OpenSTA does?
+- Analyzes **all possible timing paths** in a circuit statically
+- No need for simulation vectors
+- Checks for **setup** and **hold time** violations
+- Reports slack, arrival times and required times<br><br>
+It is used **after synthesis, placement** and **routing** to verify timing closure.
 
 # 🎯 Installation Of OpenSTA tool for Timing and Power Analysis
  
