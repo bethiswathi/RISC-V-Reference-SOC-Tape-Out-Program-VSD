@@ -1,10 +1,8 @@
 # 🎯 Installation Of OpenSTA tool for Timing and Power Analysis
-
-
-🎯  🛠️
+ 
 Before **installing OpenSTA** make sure you have the necessary development tools and libraries installed.
 
-### Prerequisites
+### 🛠️ Prerequisites
 The listed build dependency versions are the ones used during development; other versions might also work but aren’t guaranteed.
 `````
          Ubuntu   Macos
@@ -18,7 +16,7 @@ bison     3.8.2    3.8.2
 flex      2.6.4    2.6.4
 
 `````
-### External Library requirements:
+### 📚 External Library requirements:
 `````
            Ubuntu   Darwin  License
 eigen       3.4.0   3.4.0   MPL2  required
@@ -27,7 +25,7 @@ tclreadline 2.3.8   2.3.8   BSD   optional
 zLib        1.2.5   1.2.8   zlib  optional
 
 `````
-### Building with CMake
+### ⚙️ Building with CMake
 - On your home directory type the following command
 `````
 sudo apt-get update
