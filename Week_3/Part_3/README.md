@@ -79,9 +79,12 @@ sudo apt-get install libeigen3-dev
 ```
 cmake ..
 ```
-<img width="940" height="571" alt="image" src="https://github.com/user-attachments/assets/36da09bf-cc7c-44cd-aea4-b007a1a36ddb" /><br>
+<img width="900" height="571" alt="image" src="https://github.com/user-attachments/assets/36da09bf-cc7c-44cd-aea4-b007a1a36ddb" /><br>
 If the above error occured then you have to install CUDD
- 
+- Move to your home directory and clone the CUDD repository by executing the following command
+```
+git clone https://github.com/ivmai/cudd.git
+```
 
 
 
