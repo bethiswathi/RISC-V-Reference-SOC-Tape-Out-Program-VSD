@@ -121,7 +121,7 @@ make
 ```
 make install
 ```
-
+<img width="900" height="432" alt="image" src="https://github.com/user-attachments/assets/0f25f85b-e4ca-4847-ac4f-3610713acd90" />
 
 Now CUDD is installed successfully
 - Move into the OpenSTA directory that was created during cloning process using the following command
@@ -137,6 +137,7 @@ cd build
 ```
 cmake .. -DUSE_CUDD=ON -DCUDD_DIR=$HOME/cudd
 ```
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/04f96ffa-333c-4fbb-b723-e9151910a636" />
 
 
 
