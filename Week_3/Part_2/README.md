@@ -1,4 +1,4 @@
-## Fundamentals of STA
+## 🚀 Fundamentals of STA
 
 ### 🧠 What is STA (Static Timing Analysis)?
 
