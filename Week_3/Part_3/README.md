@@ -168,6 +168,7 @@ Move to the folder whee you have constraints, sdc, netlist, test.tcl and invoke 
 source delay_calc.tcl
 ``` 
 <img width="800" height="801" alt="image" src="https://github.com/user-attachments/assets/2732f085-dbb6-42c0-b173-357362262d11" /><br><br>
+<img width="600" height="160" alt="image" src="https://github.com/user-attachments/assets/9abd0ae8-724f-45ae-9931-4f0571ebaeee" /><br><br>
 <img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/b24560da-ccf0-4ddf-9c64-0bc1a4727f99" /><br>
 
 
