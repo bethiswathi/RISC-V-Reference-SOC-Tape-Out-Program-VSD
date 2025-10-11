@@ -33,8 +33,8 @@ zLib        1.2.5   1.2.8   zlib  optional
 sudo apt-get update
 sudo apt-get install build-essential tcl-dev tk-dev cmake git
 `````
-<img width="900" height="508" alt="image" src="https://github.com/user-attachments/assets/8fad62e4-0ddc-46cd-89a3-fb4fb7a4ea6a" />
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/446970e6-bc5f-478e-9b52-8f92badb811b" />
+<img width="900" height="508" alt="image" src="https://github.com/user-attachments/assets/8fad62e4-0ddc-46cd-89a3-fb4fb7a4ea6a" /><br><br>
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/446970e6-bc5f-478e-9b52-8f92badb811b" /><br>
 
 - Clone the OpenSTA repository by executing the following command
 `````
@@ -59,7 +59,7 @@ cd build
 `````
 cmake ..
 `````
-This command configures the build process for OpenSTA, generating the necessary build files based on the project's configuration.
+This command configures the build process for OpenSTA, generating the necessary build files based on the project's configuration.<br><br>
 <img width="940" height="571" alt="image" src="https://github.com/user-attachments/assets/8c428e67-31db-4d62-b67e-7e37cb784672" />
 
 If it shows an error related to Eigen3 like as shown below, then you have to install Eigen3 by using the following below command 
@@ -98,7 +98,7 @@ cd cudd
 ```
 autoreconf -i
 ```
-<img width="900" height="750" alt="image" src="https://github.com/user-attachments/assets/3f8e0eb2-71ed-454d-95c2-0f28a0fd4fa8" />
+<img width="800" height="650" alt="image" src="https://github.com/user-attachments/assets/3f8e0eb2-71ed-454d-95c2-0f28a0fd4fa8" />
 
 - Create a build directory using the following command
 ```
@@ -110,7 +110,7 @@ mkdir build
 cd build
 ./configure --prefix=$HOME/cudd
 ```
-<img width="940" height="722" alt="image" src="https://github.com/user-attachments/assets/9fcb8bf9-bd17-4412-b264-40c39a274b13" />
+<img width="800" height="522" alt="image" src="https://github.com/user-attachments/assets/9fcb8bf9-bd17-4412-b264-40c39a274b13" />
 
 - Build CUDD by running the following command
 ```
@@ -137,17 +137,18 @@ cd build
 ```
 cmake .. -DUSE_CUDD=ON -DCUDD_DIR=$HOME/cudd
 ```
+
 <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/04f96ffa-333c-4fbb-b723-e9151910a636" /><br>
-This command configures the build process for OpenSTA generating the necessary build files based on project's configuration
-<img width="850" height="656" alt="image" src="https://github.com/user-attachments/assets/d7a06313-fdde-4230-8548-3a30c1942830" /><br>
+This command configures the build process for OpenSTA generating the necessary build files based on project's configuration <br>
+<img width="850" height="456" alt="image" src="https://github.com/user-attachments/assets/d7a06313-fdde-4230-8548-3a30c1942830" /><br>
 
 - Build OpenSTA by running the following command
 ```
 make
 ```
-This command initiates the build process for OpenSTA. It compiles the source code and generates the executable files.
+This command initiates the build process for OpenSTA. It compiles the source code and generates the executable files.<br>
 
-<img width="786" height="570" alt="image" src="https://github.com/user-attachments/assets/f267c96c-290b-4187-ae77-3787413a2d1e" /><br>
+<img width="786" height="570" alt="image" src="https://github.com/user-attachments/assets/f267c96c-290b-4187-ae77-3787413a2d1e" /><br><br>
 <img width="674" height="319" alt="image" src="https://github.com/user-attachments/assets/6b74a053-331b-4474-a188-6b8fb60b3774" /><br>
 
 - Install OpenSTA by executing the following command
