@@ -85,11 +85,58 @@ If the above error occured then you have to install CUDD
 ```
 git clone https://github.com/ivmai/cudd.git
 ```
+- And you have to install these 2 dependencies by following commands
+```
+sudo apt-get install automake
+sudo apt-get install autoconf m4 perl
+```
+- Then move into the directory cudd by typing the command
+```
+cd cudd
+```
+- After that run the following commands to configure CUDD
+```
+autoreconf -i
+```
+<img width="900" height="750" alt="image" src="https://github.com/user-attachments/assets/3f8e0eb2-71ed-454d-95c2-0f28a0fd4fa8" />
+
+- Create a build directory using the following command
+```
+mkdir build
+```
+
+- Move into the build directory using the following command
+```
+cd build
+./configure --prefix=$HOME/cudd
+```
+<img width="940" height="722" alt="image" src="https://github.com/user-attachments/assets/9fcb8bf9-bd17-4412-b264-40c39a274b13" />
+
+- Build CUDD by running the following command
+```
+make
+```
+
+- Install CUDD by executing the following command
+```
+make install
+```
 
 
+Now CUDD is installed successfully
+- Move into the OpenSTA directory that was created during cloning process using the following command
+```
+cd OpenSTA
+```
+- Move into the build directory using the following command in the OpenSTA
+```
+cd build
+```
 
-
-
+- Configure the build by executing the following command
+```
+cmake .. -DUSE_CUDD=ON -DCUDD_DIR=$HOME/cudd
+```
 
 
 
