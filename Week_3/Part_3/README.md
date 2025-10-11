@@ -137,7 +137,36 @@ cd build
 ```
 cmake .. -DUSE_CUDD=ON -DCUDD_DIR=$HOME/cudd
 ```
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/04f96ffa-333c-4fbb-b723-e9151910a636" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/04f96ffa-333c-4fbb-b723-e9151910a636" /><br>
+This command configures the build process for OpenSTA generating the necessary build files based on project's configuration
+<img width="850" height="656" alt="image" src="https://github.com/user-attachments/assets/d7a06313-fdde-4230-8548-3a30c1942830" /><br>
+
+- Build OpenSTA by running the following command
+```
+make
+```
+This command initiates the build process for OpenSTA. It compiles the source code and generates the executable files.
+
+<img width="786" height="570" alt="image" src="https://github.com/user-attachments/assets/f267c96c-290b-4187-ae77-3787413a2d1e" /><br>
+<img width="674" height="319" alt="image" src="https://github.com/user-attachments/assets/6b74a053-331b-4474-a188-6b8fb60b3774" /><br>
+
+- Install OpenSTA by executing the following command
+```
+sudo make install
+```
+<img width="720" height="536" alt="image" src="https://github.com/user-attachments/assets/49e9434d-42db-432f-a32c-2576eeb666c4" /><br>
+<img width="798" height="560" alt="image" src="https://github.com/user-attachments/assets/a40e0df0-7f62-416c-8de3-0b0dc53697a5" /><br>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
