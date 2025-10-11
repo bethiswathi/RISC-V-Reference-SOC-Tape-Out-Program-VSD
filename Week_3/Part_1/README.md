@@ -1,5 +1,5 @@
 
-# VSDBabySoC: Synthesis and Gate-Level Simulation (WEEK 3- Part 1)
+# 🚀 VSDBabySoC: Synthesis and Gate-Level Simulation 
 
 ## Table of Contents
 1. [Pre-Synthesis Functional Simulation Recap](#pre-synthesis-functional-simulation-recap)
