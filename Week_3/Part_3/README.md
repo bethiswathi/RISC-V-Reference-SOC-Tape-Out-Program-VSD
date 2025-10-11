@@ -155,8 +155,8 @@ This command initiates the build process for OpenSTA. It compiles the source cod
 ```
 sudo make install
 ```
-<img width="720" height="536" alt="image" src="https://github.com/user-attachments/assets/49e9434d-42db-432f-a32c-2576eeb666c4" /><br>
-<img width="798" height="560" alt="image" src="https://github.com/user-attachments/assets/a40e0df0-7f62-416c-8de3-0b0dc53697a5" /><br>
+<img width="720" height="436" alt="image" src="https://github.com/user-attachments/assets/49e9434d-42db-432f-a32c-2576eeb666c4" /><br>
+<img width="798" height="400" alt="image" src="https://github.com/user-attachments/assets/a40e0df0-7f62-416c-8de3-0b0dc53697a5" /><br>
 
 
 
