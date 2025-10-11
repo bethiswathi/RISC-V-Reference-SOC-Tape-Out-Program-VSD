@@ -213,7 +213,7 @@ write_verilog -noattr ../../output/synth/vsdbabysoc.synth.v
  <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/846249a2-264a-4b14-a6e8-1270993efaaa" /><br>
 
 **Explanation**:
-- -DPOST_SYNTH_SIM:
+- -DPOST_SYNTH_SIM: set to true for compile/simulation run
 - -I ../include and ../module ----> Include paths for header and modules
 - -o output/post_synth_sim/post_synth_sim.out ----> Location of output
   
@@ -280,7 +280,7 @@ write_verilog -noattr ../../output/synth/vsdbabysoc.synth.v
 | **Tools Used** | Verilog Simulator (iverilog, Modelsim) | Yosys (synthesis), OpenSTA (timing) |
 ---
 
-### Gate-Level Simulation log -
+### Gate-Level Simulation 
 
 The GLS process involves several preparatory steps followed by compilation and execution of the simulation.
 
@@ -292,19 +292,19 @@ Before simulation, we need to gather all necessary files into the working direct
 
 ##### Copy Standard Cell Verilog Models
 ```bash
-cp ~/VLSI/sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model/sky130_fd_sc_hd.v ~/VLSI/VSDBabySoC/src/module/
+cp ~/VLSI/sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model/sky130_fd_sc_hd.v ~/home/swathi/VSDBabySoCProject/soc/VSDBabySoC/src/module/
 ```
 - This file contains the **behavioral Verilog descriptions** for every standard cell in the SKY130 High-Density library.
 
 ##### Copy Primitives Library
 ```bash
-cp ~/VLSI/sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model/primitives.v ~/VLSI/VSDBabySoC/src/module/
+cp ~/VLSI/sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model/primitives.v ~~/home/swathi/VSDBabySoCProject/soc/VSDBabySoC/src/module/
 ```
 - This file defines low-level **primitive building blocks** used within the standard cell models.
 
 ##### Copy Synthesized Netlist
 ```bash
-cp ~/VLSI/VSDBabySoC/output/synth/vsdbabysoc.synth.v ~/VLSI/VSDBabySoC/src/module/
+cp ~/VLSI/VSDBabySoC/output/synth/vsdbabysoc.synth.v ~/~/home/swathi/VSDBabySoCProject/soc/VSDBabySoC/output/synth/
 ```
 - Copies the gate-level netlist (output of Yosys) into the directory where simulation will be run.
 
